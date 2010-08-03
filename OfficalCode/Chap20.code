@@ -1,0 +1,788 @@
+listing 1
+// Demonstrate InetAddress.
+import java.net.*;
+
+class InetAddressTest 
+{
+  public static void main(String args[]) throws UnknownHostException {
+    InetAddress Address = InetAddress.getLocalHost();
+    System.out.println(Address);
+    Address = InetAddress.getByName("osborne.com");
+    System.out.println(Address);
+    InetAddress SW[] = InetAddress.getAllByName("www.nba.com");
+    for (int i=0; i<SW.length; i++)
+      System.out.println(SW[i]);
+  }
+}
+
+listing 2
+//Demonstrate Sockets.
+import java.net.*;
+import java.io.*;
+
+class Whois {
+  public static void main(String args[]) throws Exception {
+    int c;
+    Socket s = new Socket("internic.net", 43);
+    InputStream in = s.getInputStream();
+    OutputStream out = s.getOutputStream();
+    String str = (args.length == 0 ? "osborne.com" : args[0]) + "\n";
+    byte buf[] = str.getBytes();
+    out.write(buf);
+    while ((c = in.read()) != -1) {
+      System.out.print((char) c);
+    }
+    s.close();
+  }
+}
+
+listing 3
+// Demonstrate URL.
+import java.net.*;
+class URLDemo {
+  public static void main(String args[]) throws MalformedURLException {
+    URL hp = new URL("http://www.osborne/downloads");
+
+    System.out.println("Protocol: " + hp.getProtocol());
+    System.out.println("Port: " + hp.getPort());
+    System.out.println("Host: " + hp.getHost());
+    System.out.println("File: " + hp.getFile());
+    System.out.println("Ext:" + hp.toExternalForm());
+  }
+}
+
+listing 4
+// Demonstrate URLConnection.
+import java.net.*;
+import java.io.*;
+import java.util.Date;
+
+class UCDemo 
+{
+  public static void main(String args[]) throws Exception {
+    int c;
+    URL hp = new URL("http://www.internic.net");
+    URLConnection hpCon = hp.openConnection();
+
+    // get date
+    long d = hpCon.getDate(); 
+    if(d==0)
+      System.out.println("No date information.");
+    else
+      System.out.println("Date: " + new Date(d));
+
+    // get content type
+    System.out.println("Content-Type: " + hpCon.getContentType());
+
+    // get expiration date
+    d = hpCon.getExpiration(); 
+    if(d==0)
+      System.out.println("No expiration information.");
+    else
+      System.out.println("Expires: " + new Date(d));
+
+    // get last-modified date
+    d = hpCon.getLastModified(); 
+    if(d==0)
+      System.out.println("No last-modified information.");
+    else
+      System.out.println("Last-Modified: " + new Date(d));
+
+    // get content length
+    int len = hpCon.getContentLength();
+    if(len == -1)
+      System.out.println("Content length unavailable.");
+    else
+      System.out.println("Content-Length: " + len);
+
+    if(len != 0) {
+      System.out.println("=== Content ===");
+      InputStream input = hpCon.getInputStream();
+      int i = len;
+      while (((c = input.read()) != -1)) { // && (--i > 0)) {
+        System.out.print((char) c);
+      }
+      input.close();
+
+    } else {
+      System.out.println("No content available.");
+    }
+
+  }
+}
+
+listing 5
+import java.util.*;
+
+class MimeHeader extends Hashtable<String, String> {
+  void parse(String data) {
+    StringTokenizer st = new StringTokenizer(data, "\r\n");
+
+    while (st.hasMoreTokens()) {
+      String s = st.nextToken();
+      int colon = s.indexOf(':');
+      String key = s.substring(0, colon);
+      String val = s.substring(colon + 2); // skip ": "
+      put(key, val);
+    }
+  }
+
+  MimeHeader() {}
+
+  MimeHeader(String d) {
+    parse(d);
+  }
+
+  public String toString() {
+    String ret = "";
+    Enumeration e = keys();
+
+    while(e.hasMoreElements()) {
+      String key = (String) e.nextElement();
+      String val = (String) get(key);
+      ret += key + ": " + val + "\r\n";
+    }
+    return ret;
+  }
+
+  // This simple function converts a mime string from
+  // any variant of capitalization to a canonical form.
+  // For example: CONTENT-TYPE or content-type to Content-Type,
+  // or Content-length or CoNTeNT-LENgth to Content-Length.
+  private String fix(String ms) {
+    char chars[] = ms.toLowerCase().toCharArray();
+    boolean upcaseNext = true;
+
+    for (int i = 0; i < chars.length - 1; i++) {
+      char ch = chars[i];
+      if (upcaseNext && 'a' <= ch && ch <= 'z') {
+        chars[i] = (char) (ch - ('a' - 'A'));
+      }
+      upcaseNext = ch == '-';
+    }
+    return new String(chars);
+  }
+
+  public String get(String key) {
+    return super.get(fix(key));
+  }
+
+  public String put(String key, String val) {
+    return super.put(fix(key), val);
+  }
+}
+
+listing 6
+import java.io.*;
+/*
+ * HttpResponse
+ * Parse a return message and MIME header from a server.
+ * HTTP/1.0 302 Found  =  redirection, check Location for where.
+ * HTTP/1.0 200 OK = file data comes after mime header.
+ */
+
+class HttpResponse
+{
+  int statusCode;      // Status-Code in spec
+  String reasonPhrase; // Reason-Phrase in spec
+  MimeHeader mh;
+  static String CRLF = "\r\n";
+
+  void parse(String request) {
+    int fsp = request.indexOf(' ');
+    int nsp = request.indexOf(' ', fsp+1);
+    int eol = request.indexOf('\n');
+    String protocol = request.substring(0, fsp);
+    statusCode = Integer.parseInt(request.substring(fsp+1, nsp));
+    reasonPhrase = request.substring(nsp+1, eol);
+    String raw_mime_header = request.substring(eol + 1);
+    mh = new MimeHeader(raw_mime_header);
+  }
+
+  HttpResponse(String request) {
+    parse(request);
+  }
+
+  HttpResponse(int code, String reason, MimeHeader m) {
+    statusCode = code;
+    reasonPhrase = reason;
+    mh = m;
+  }
+
+  public String toString() {
+    return "HTTP/1.0 " + statusCode + " " + reasonPhrase + CRLF +
+      mh + CRLF;
+  }
+}
+
+listing 7
+class UrlCacheEntry 
+{
+  String url;
+  MimeHeader mh;
+  byte data[];
+  int length = 0;
+
+  public UrlCacheEntry(String u, MimeHeader m) {
+    url = u;
+    mh = m;
+    String cl = mh.get("Content-Length");
+    if (cl != null) {
+      data = new byte[Integer.parseInt(cl)];
+    }
+  }
+
+  void append(byte d[], int n) {
+    if (data == null) {
+      data = new byte[n];
+      System.arraycopy(d, 0, data, 0, n);
+      length = n;
+    } else if (length + n > data.length) {
+      byte old[] = data;
+      data = new byte[old.length + n];
+      System.arraycopy(old, 0, data, 0, old.length);
+      System.arraycopy(d, 0, data, old.length, n);
+    } else {
+      System.arraycopy(d, 0, data, length, n);
+      length += n;
+    }
+  }
+}
+
+listing 8
+interface LogMessage {
+  public void log(String msg);
+}
+
+listing 9
+import java.net.*;
+import java.io.*;
+import java.text.*;
+import java.util.*;
+
+class httpd implements Runnable, LogMessage {
+  private int port;
+  private String docRoot;
+  private LogMessage log;
+  private Hashtable<String, UrlCacheEntry> cache =
+    new Hashtable<String, UrlCacheEntry>();
+  private boolean stopFlag;
+
+  private static String version = "1.0";
+  private static String mime_text_html = "text/html";
+  private static String CRLF = "\r\n";
+  private static String indexfile = "index.html";
+  private static int buffer_size = 8192;
+  static String mt[] = {  // mapping from file ext to Mime-Type
+    "txt", "text/plain",
+    "html", mime_text_html,
+    "htm", "text/html",
+    "gif", "image/gif",
+    "jpg", "image/jpg",
+    "jpeg", "image/jpg",
+    "class", "application/octet-stream"
+  };
+  static String defaultExt = "txt";
+  static Hashtable<String, String> types =
+    new Hashtable<String, String>();
+
+  static {
+    for (int i=0; i<mt.length;i+=2)
+      types.put(mt[i], mt[i+1]);
+  }
+
+  static String fnameToMimeType(String filename) {
+    if (filename.endsWith("/"))      // special for index files.
+      return mime_text_html;
+    int dot = filename.lastIndexOf('.');
+    String ext = (dot > 0) ? filename.substring(dot + 1) : defaultExt;
+    String ret = types.get(ext);
+    return ret != null ? ret : types.get(defaultExt);
+  }
+
+  int hits_served = 0;
+  int bytes_served = 0;
+  int files_in_cache = 0;
+  int bytes_in_cache = 0;
+  int hits_to_cache = 0;
+  
+  private final byte toBytes(String s)[] {
+    byte b[] = s.getBytes();
+    return b;
+  }
+
+  private MimeHeader makeMimeHeader(String type, int length) {
+    MimeHeader mh = new MimeHeader();
+    Date curDate = new Date();
+    TimeZone gmtTz = TimeZone.getTimeZone("GMT");
+    SimpleDateFormat sdf =
+      new SimpleDateFormat("dd MMM yyyy hh:mm:ss zzz");
+    sdf.setTimeZone(gmtTz);
+    mh.put("Date", sdf.format(curDate));
+    mh.put("Server", "JavaCompleteReference/" + version);
+    mh.put("Content-Type", type);
+    if (length >= 0)
+      mh.put("Content-Length", String.valueOf(length));
+    return mh;
+  }
+
+  private String error(int code, String msg, String url) {
+    String html_page = "<body>" + CRLF +
+                 "<h1>" + code + " " + msg + "</h1>" + CRLF;
+    if (url != null) 
+      html_page += "Error when fetching URL: " + url + CRLF;
+    html_page += "</body>" + CRLF;
+    MimeHeader mh = makeMimeHeader(mime_text_html, html_page.length());
+    HttpResponse hr = new HttpResponse(code, msg, mh);
+
+    logEntry("GET", url, code, 0);
+    return hr + html_page;
+  }
+
+  // Read 'in' until you get two \n's in a row.
+  // Return up to that point as a String.
+  // Discard all \r's.
+  private String getRawRequest(InputStream in)
+    throws IOException {
+    byte buf[] = new byte[buffer_size];
+    int pos=0;
+    int c;
+    while ((c = in.read()) != -1) {
+      switch (c) {
+        case '\r':
+        break;
+        case '\n': 
+          if (buf[pos-1] == c) {
+            return new String(buf,0,pos);
+          }
+        default:
+          buf[pos++] = (byte) c;
+      }
+    }
+    return null;
+  }
+
+  static String months[] = {
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+  };
+  private String host;
+  // fmt02d is the same as C's printf("%02d", i)
+  private final String fmt02d(int i) {
+    if(i < 0) {
+      i = -i;
+      return ((i < 9) ? "-0" : "-") + i;
+    }
+    else {
+      return ((i < 9) ? "0" : "") + i;
+    }
+  }
+  private void logEntry(String cmd, String url, int code, int size) {
+    Calendar calendar = Calendar.getInstance();
+    int tzmin = calendar.get(Calendar.ZONE_OFFSET)/(60*1000);  
+    int tzhour = tzmin / 60;
+    tzmin -= tzhour * 60;
+    log.log(host + " - - [" +
+      fmt02d(calendar.get(Calendar.DATE) ) + "/" +
+      months[calendar.get(Calendar.MONTH)] + "/" +
+      calendar.get(Calendar.YEAR) + ":" + 
+      fmt02d(calendar.get(Calendar.HOUR) ) + ":" + 
+      fmt02d(calendar.get(Calendar.MINUTE) ) + ":" + 
+      fmt02d(calendar.get(Calendar.SECOND)) + " " + 
+      fmt02d(tzhour) + fmt02d(tzmin) +
+      "] \"" +
+      cmd + " " +
+      url + " HTTP/1.0\" " +
+      code + " " +
+      size + "\n");
+    hits_served++;
+    bytes_served += size;
+  }
+
+  private void writeString(OutputStream out, String s)
+    throws IOException {
+    out.write(toBytes(s));
+  }
+
+  private void writeUCE(OutputStream out, UrlCacheEntry uce)
+    throws IOException {
+      HttpResponse hr = new HttpResponse(200, "OK", uce.mh);
+      writeString(out, hr.toString());
+      out.write(uce.data, 0, uce.length);
+      logEntry("GET", uce.url, 200, uce.length);
+  }
+
+  private boolean serveFromCache(OutputStream out, String url)
+    throws IOException {
+    UrlCacheEntry uce;
+    if ((uce = (UrlCacheEntry)cache.get(url)) != null) {
+      writeUCE(out, uce);
+      hits_to_cache++;
+      return true;
+    }
+    return false;
+  }
+
+  private UrlCacheEntry loadFile(InputStream in, String url,
+                                 MimeHeader mh)
+    throws IOException {
+
+    UrlCacheEntry uce;
+    byte file_buf[] = new byte[buffer_size];
+    uce = new UrlCacheEntry(url, mh);
+    int size = 0;
+    int n;
+    while ((n = in.read(file_buf)) >= 0) {
+      uce.append(file_buf, n);
+      size += n;
+    }
+    in.close();
+    cache.put(url, uce);
+    files_in_cache++;
+    bytes_in_cache += uce.length;
+    return uce;
+  }
+
+  private UrlCacheEntry readFile(File f, String url)
+    throws IOException {
+
+    if (!f.exists())
+      return null;
+    InputStream in = new FileInputStream(f);
+    int file_length = in.available();
+    String mime_type = fnameToMimeType(url);
+    MimeHeader mh = makeMimeHeader(mime_type, file_length);
+    UrlCacheEntry uce = loadFile(in, url, mh);
+    return uce;
+  }
+
+  private void writeDiskCache(UrlCacheEntry uce)
+    throws IOException {
+
+    String path = docRoot + uce.url;
+    String dir = path.substring(0, path.lastIndexOf("/"));
+    dir.replace('/', File.separatorChar);
+    new File(dir).mkdirs();
+    FileOutputStream out = new FileOutputStream(path);
+    out.write(uce.data, 0, uce.length);
+    out.close();
+  }
+
+  // A client asks us for a url that looks like this:
+  // http://the.internet.site/the/url
+  // we go get it from the site and return it...
+  private void handleProxy(OutputStream out, String url,
+                           MimeHeader inmh) {
+    try {
+      int start = url.indexOf("://") + 3;
+      int path = url.indexOf('/', start);
+      String site = url.substring(start, path).toLowerCase();
+      int port = 80;
+      String server_url = url.substring(path);
+      int colon = site.indexOf(':');
+      if (colon > 0) {
+        port = Integer.parseInt(site.substring(colon + 1));
+        site = site.substring(0, colon);
+      }
+      url = "/cache/" + site + ((port != 80) ? (":" + port) : "") +
+            server_url;
+      if (url.endsWith("/"))
+        url += indexfile;
+
+      if (!serveFromCache(out, url)) {
+        if (readFile(new File(docRoot + url), url) != null) {
+          serveFromCache(out, url);
+          return;
+        }
+
+        // If we haven't already cached this page, open a socket
+        // to the site's port and send a GET command to it.
+        // We modify the user-agent to add ourselves... "via".
+
+        Socket server = new Socket(site, port);
+        InputStream server_in = server.getInputStream();
+        OutputStream server_out = server.getOutputStream();
+        inmh.put("User-Agent", inmh.get("User-Agent") +
+                 " via JavaCompleteReferenceProxy/" + version);
+        String req = "GET " + server_url + " HTTP/1.0" + CRLF +
+                     inmh + CRLF;
+        writeString(server_out, req);
+        String raw_request = getRawRequest(server_in);
+        HttpResponse server_response =
+                       new HttpResponse(raw_request);
+        writeString(out, server_response.toString());
+        if (server_response.statusCode == 200) {
+          UrlCacheEntry uce = loadFile(server_in, url,
+                                       server_response.mh);
+          out.write(uce.data, 0, uce.length);
+          writeDiskCache(uce);
+          logEntry("GET", site + server_url, 200, uce.length);
+        }
+        server_out.close();
+        server.close();
+      }
+    } catch (IOException e) {
+      log.log("Exception: " + e);
+    }
+  }
+
+  private void handleGet(OutputStream out, String url,
+                         MimeHeader inmh) {
+    byte file_buf[] = new byte[buffer_size];
+    String filename = docRoot + url +
+                      (url.endsWith("/") ? indexfile : "");
+    try {
+      if (!serveFromCache(out, url)) {
+        File f = new File(filename);
+        if (! f.exists()) {
+          writeString(out, error(404, "Not Found", filename));
+          return;
+        }
+        if (! f.canRead()) {
+          writeString(out, error(404, "Permission Denied", filename));
+          return;
+        }
+        UrlCacheEntry uce = readFile(f, url);
+        writeUCE(out, uce);
+      }
+    } catch (IOException e) {
+      log.log("Exception: " + e);
+    }
+  }
+
+  private void doRequest(Socket s) throws IOException {
+    if(stopFlag)
+      return;
+    InputStream in = s.getInputStream();
+    OutputStream out = s.getOutputStream();
+
+    String request = getRawRequest(in);
+    int fsp = request.indexOf(' ');
+    int nsp = request.indexOf(' ', fsp+1);
+    int eol = request.indexOf('\n');
+    String method = request.substring(0, fsp);
+    String url = request.substring(fsp+1, nsp);
+    String raw_mime_header = request.substring(eol + 1);
+
+    MimeHeader inmh = new MimeHeader(raw_mime_header);
+
+    request = request.substring(0, eol);
+
+    if (method.equalsIgnoreCase("get")) {
+      if (url.indexOf("://") >= 0) {
+        handleProxy(out, url, inmh);
+      } else {
+        handleGet(out, url, inmh);
+      }
+    } else {
+      writeString(out, error(405, "Method Not Allowed", method));
+    }
+    in.close();
+    out.close();
+  }
+
+  public void run() {
+    try {
+      ServerSocket acceptSocket;
+      acceptSocket = new ServerSocket(port);
+      while (true) {
+        Socket s = acceptSocket.accept();
+        host = s.getInetAddress().getHostName();
+        doRequest(s);
+        s.close();
+      }
+    } catch (IOException e) {
+      log.log("accept loop IOException: " + e + "\n");
+    } catch (Exception e) {
+      log.log("Exception: " + e);
+    }
+  }
+
+  private Thread t;
+  public synchronized void start() {
+    stopFlag = false;
+    if (t == null) {
+      t = new Thread(this);
+      t.start();
+    }
+  }
+
+  public synchronized void stop() {
+    stopFlag = true;
+    log.log("Stopped at " + new Date() + "\n");
+  }
+  
+  public httpd(int p, String dr, LogMessage lm) {
+    port = p;
+    docRoot = dr;
+    log = lm;
+  }
+
+  // This main and log method allow httpd to be run from the console.
+  public static void main(String args[]) {
+    httpd h = new httpd(80, "c:\\www", null);
+    h.log = h;
+    h.start();
+    try {
+      Thread.currentThread().join();
+    } catch (InterruptedException e) {};
+  }
+
+  public void log(String m) {
+    System.out.print(m);
+  }
+}
+
+listing 10
+import java.util.*;
+import java.applet.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class HTTP extends Applet implements LogMessage,
+                                            ActionListener
+{
+  private int m_port = 80;
+  private String m_docroot = "c:\\www";
+  private httpd m_httpd;
+  private TextArea m_log;
+  private Label status;
+
+  private final String PARAM_port = "port";
+  private final String PARAM_docroot = "docroot";
+  public HTTP()  {
+  }
+
+  public void init()  {
+    setBackground(Color.white);
+    String param;
+
+    // port: Port number to listen on
+    param = getParameter(PARAM_port);
+    if (param != null)
+      m_port = Integer.parseInt(param);
+
+    // docroot: web document root
+    param = getParameter(PARAM_docroot);
+    if (param != null)
+      m_docroot = param;
+
+    setLayout(new BorderLayout());
+
+    Label lab = new Label("Java HTTPD");
+
+    lab.setFont(new Font("SansSerif", Font.BOLD, 18));
+    add("North", lab);
+    m_log = new TextArea("", 24, 80);
+    add("Center", m_log);
+    Panel p = new Panel();
+    p.setLayout(new FlowLayout(FlowLayout.CENTER,1,1));
+    add("South", p);
+    Button bstart = new Button("Start");
+    bstart.addActionListener(this);
+    p.add(bstart);
+    Button bstop = new Button("Stop");
+    bstop.addActionListener(this);
+    p.add(bstop);
+    status = new Label("raw");
+    status.setForeground(Color.green);
+    status.setFont(new Font("SansSerif", Font.BOLD, 10));
+    p.add(status);
+    m_httpd = new httpd(m_port, m_docroot, this);
+  }
+
+  public void destroy()  {
+    stop();
+  }
+
+  public void paint(Graphics g)  {
+  }
+
+  public void start()  {
+    m_httpd.start();
+    status.setText("Running  ");
+    clear_log("Log started on " + new Date() + "\n"); 
+  }
+
+  public void stop()  {
+    m_httpd.stop();
+    status.setText("Stopped  ");
+  }
+
+  public void actionPerformed(ActionEvent ae) {
+    String label = ae.getActionCommand();
+    if(label.equals("Start")) {
+      start();
+    }
+    else {
+      stop();
+    }
+  }
+
+  public void clear_log(String msg) {
+    m_log.setText(msg + "\n");
+  }
+
+  public void log(String msg) {
+    m_log.append(msg);
+    status.setText(m_httpd.hits_served + " hits (" +
+            (m_httpd.bytes_served / 1024) + "K), " +
+            m_httpd.files_in_cache + " cached files (" +
+            (m_httpd.bytes_in_cache / 1024) + "K), " +
+            m_httpd.hits_to_cache + " cached hits");
+    status.setSize(status.getPreferredSize());
+  }
+}
+
+listing 11
+// Demonstrate Datagrams.
+import java.net.*;
+
+class WriteServer {
+  public static int serverPort = 998;
+  public static int clientPort = 999;
+  public static int buffer_size = 1024;
+  public static DatagramSocket ds;
+  public static byte buffer[] = new byte[buffer_size];
+
+  public static void TheServer() throws Exception {
+    int pos=0;
+    while (true) {
+      int c = System.in.read();
+      switch (c) {
+        case -1: 
+          System.out.println("Server Quits.");
+          return;
+        case '\r': 
+          break;
+        case '\n':
+          ds.send(new DatagramPacket(buffer,pos,
+             InetAddress.getLocalHost(),clientPort));
+          pos=0;
+          break;
+        default:
+          buffer[pos++] = (byte) c;
+      }
+    }
+  }
+
+  public static void TheClient() throws Exception {
+    while(true) {
+      DatagramPacket p = new DatagramPacket(buffer, buffer.length);
+      ds.receive(p);
+      System.out.println(new String(p.getData(), 0, p.getLength()));
+    }
+  }
+
+  public static void main(String args[]) throws Exception {
+    if(args.length == 1) {
+      ds = new DatagramSocket(serverPort);
+      TheServer();
+    } else {
+      ds = new DatagramSocket(clientPort);
+      TheClient();
+    }
+  }
+}
+
+
