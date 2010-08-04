@@ -2,15 +2,15 @@
  *  Just for fun
  * 
  */
-class Box  {
+class Box2  {
     double width;
     double height;
     double depth;
 }
 class BoxDemo2 {
     public static void main(String args[])  {
-        Box mybox1 = new Box();
-        Box mybox2 = new Box();
+        Box2 mybox1 = new Box2();
+        Box2 mybox2 = new Box2();
         double vol;
 
         mybox1.width = 10;
