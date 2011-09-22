@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3DXCreate", "D3DXCreate.vcproj", "{A3321597-0862-4892-BA33-51D0CE6D109F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A3321597-0862-4892-BA33-51D0CE6D109F}.Debug.ActiveCfg = Debug|Win32
+		{A3321597-0862-4892-BA33-51D0CE6D109F}.Debug.Build.0 = Debug|Win32
+		{A3321597-0862-4892-BA33-51D0CE6D109F}.Release.ActiveCfg = Release|Win32
+		{A3321597-0862-4892-BA33-51D0CE6D109F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Snow System", "Snow System.vcproj", "{75383E41-A858-440C-ABA5-C63C2118AE01}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{75383E41-A858-440C-ABA5-C63C2118AE01}.Debug.ActiveCfg = Debug|Win32
+		{75383E41-A858-440C-ABA5-C63C2118AE01}.Debug.Build.0 = Debug|Win32
+		{75383E41-A858-440C-ABA5-C63C2118AE01}.Release.ActiveCfg = Release|Win32
+		{75383E41-A858-440C-ABA5-C63C2118AE01}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

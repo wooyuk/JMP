@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3DXCreateMeshFVF", "D3DXCreateMeshFVF.vcproj", "{A30B93D1-55F0-4E2F-B57B-9D89E0F83C08}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A30B93D1-55F0-4E2F-B57B-9D89E0F83C08}.Debug.ActiveCfg = Debug|Win32
+		{A30B93D1-55F0-4E2F-B57B-9D89E0F83C08}.Debug.Build.0 = Debug|Win32
+		{A30B93D1-55F0-4E2F-B57B-9D89E0F83C08}.Release.ActiveCfg = Release|Win32
+		{A30B93D1-55F0-4E2F-B57B-9D89E0F83C08}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

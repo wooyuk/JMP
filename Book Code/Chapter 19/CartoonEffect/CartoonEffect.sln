@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CartoonEffect", "CartoonEffect.vcproj", "{AC667B2D-4FAB-4DA4-B7F4-A9BBF92E75DA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AC667B2D-4FAB-4DA4-B7F4-A9BBF92E75DA}.Debug.ActiveCfg = Debug|Win32
+		{AC667B2D-4FAB-4DA4-B7F4-A9BBF92E75DA}.Debug.Build.0 = Debug|Win32
+		{AC667B2D-4FAB-4DA4-B7F4-A9BBF92E75DA}.Release.ActiveCfg = Release|Win32
+		{AC667B2D-4FAB-4DA4-B7F4-A9BBF92E75DA}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

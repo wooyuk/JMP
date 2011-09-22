@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ID3DXFont", "ID3DXFont.vcproj", "{4B5D678B-D11F-4DA7-9921-1ED0365295AE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4B5D678B-D11F-4DA7-9921-1ED0365295AE}.Debug.ActiveCfg = Debug|Win32
+		{4B5D678B-D11F-4DA7-9921-1ED0365295AE}.Debug.Build.0 = Debug|Win32
+		{4B5D678B-D11F-4DA7-9921-1ED0365295AE}.Release.ActiveCfg = Release|Win32
+		{4B5D678B-D11F-4DA7-9921-1ED0365295AE}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1556 @@
+data/.git/.COMMIT_EDITMSG.swp.i
+data/.git/COMMIT_EDITMSG.i
+data/.git/FETCH_HEAD.i
+data/.git/HEAD.i
+data/.git/config.i
+data/.git/description.i
+data/.git/gitk.cache.i
+data/.git/hooks/applypatch-msg.sample.i
+data/.git/hooks/commit-msg.sample.i
+data/.git/hooks/post-commit.sample.i
+data/.git/hooks/post-receive.sample.i
+data/.git/hooks/post-update.sample.i
+data/.git/hooks/pre-applypatch.sample.i
+data/.git/hooks/pre-commit.sample.i
+data/.git/hooks/pre-rebase.sample.i
+data/.git/hooks/prepare-commit-msg.sample.i
+data/.git/hooks/update.sample.i
+data/.git/index.i
+data/.git/info/exclude.i
+data/.git/info/refs.i
+data/.git/logs/HEAD.i
+data/.git/logs/refs/heads/master.i
+data/.git/logs/refs/remotes/wyk001/master.i
+data/.git/objects/0b/5cd0c3ab7b7be4aedfdc34e7952a28cbe96ddb.i
+data/.git/objects/12/055db64d69ec67ecc59bbd97857b57ae3c6fce.i
+data/.git/objects/16/d8f7ec619bc7c6338fbe04f97c83650a83301e.i
+data/.git/objects/29/3e57f546ee721f6fcc4a6f88aef17440ce1dee.i
+data/.git/objects/38/0544c6ef4a4666b10f97fde1884025bb217993.i
+data/.git/objects/3a/57e7e401268ab78bc5a1bbf43e1b801dfe2724.i
+data/.git/objects/3a/ea0c2f4e456b1a76b60c8b4b4210d013a93855.i
+data/.git/objects/3c/a7aa5f7b78fb95601a6ffbb40c07d26bb16ba6.i
+data/.git/objects/40/4206a809f5872afc77733fd58115f3d31a04c8.i
+data/.git/objects/45/0bd48d1112e6ad63d98ee2fb6ead6e145a9def.i
+data/.git/objects/4a/ffdd35dd33deac8c2fb4f44ae17177018e7148.i
+data/.git/objects/4b/1bfdf9c937a5a6960c65c239bc0a2f85899e74.i
+data/.git/objects/4b/825dc642cb6eb9a060e54bf8d69288fbee4904.i
+data/.git/objects/4c/1bf787ad39c9df7d50779b9003c54127c37838.i
+data/.git/objects/4d/00af36138a2d666160be9ea50420fa1c531c8e.i
+data/.git/objects/51/4f0bf724f6eac170037498e5e1553ec284fe99.i
+data/.git/objects/5a/055198ae94ad71c65ae123e0304cedf246a070.i
+data/.git/objects/5a/ba747ea30e04fc7a4449239cfa12ab4fd0d9d8.i
+data/.git/objects/5d/f8d74bfce159156f98e0f210893b79cb183f1a.i
+data/.git/objects/64/c50760db75307e9abbb3d01c9cfc0ec50490d2.i
+data/.git/objects/68/4f5bd06e29a5e78d450538e079705d0472ca6d.i
+data/.git/objects/6c/9ef983970bc9fb2cf252cd2e93c4b343182687.i
+data/.git/objects/76/6c99f6ea92e3a44ed085db0c4931a061051b86.i
+data/.git/objects/7f/1a3c27e39785c460592be4980289bff9e8169a.i
+data/.git/objects/81/1c7401eadd1e68081ef8d9cf6f8859fff6a8b0.i
+data/.git/objects/82/1513d1b94330771da1a7e38d48166e24c56cd2.i
+data/.git/objects/84/8185eb24e4e88b52e6e372e79e7d493c0729dc.i
+data/.git/objects/8f/1b3922f8db09e6c5ce3e59a2ff3926e1d26b08.i
+data/.git/objects/95/7271f4584a641b133086707939637316b0065a.i
+data/.git/objects/9a/ef2f1ee12129120adfdf19ca48a63dfe6953ee.i
+data/.git/objects/9e/8a939ec7954f1818889442efa280b4d5a3ef5d.i
+data/.git/objects/a4/384ca829f8b41ab148f7bb1468ea12a7779b96.i
+data/.git/objects/ab/908496ec0eaf9c1f376049285f2866ae1f1a31.i
+data/.git/objects/b2/b34e15c0cbd019d51f0a6826c80e86205b8145.i
+data/.git/objects/ba/659d9ae5e87b9f4d8637401b1e9e777fb74fc4.i
+data/.git/objects/be/c069c434156985836aa9f03340214240d42d04.i
+data/.git/objects/c2/01251492ca61300e2f0e51e98c89622a4e5ad2.i
+data/.git/objects/c8/4e319f96ee57e7456a03409b76f3a799186d8d.i
+data/.git/objects/c9/d03eb3702ed555c4480e2e47f0a475e6533754.i
+data/.git/objects/cf/54a12f9c0da08593a61f91431951a7e71a1f38.i
+data/.git/objects/cf/f6a086ddf57006328dd41ffbeec783a1d807f5.i
+data/.git/objects/d3/0980f6c1764907c29e9e4ba8c6f63de7c1f005.i
+data/.git/objects/da/a7d533f6f64f2155d1446ab77692ae3a79bb17.i
+data/.git/objects/dc/c9d875379dae6f6ebca98b517ae4050362f9dc.i
+data/.git/objects/e0/c8eebaf0ec1ea329412415389db367bbce8317.i
+data/.git/objects/e1/8b47da557c0e7674ebe8f315c91f801ca06116.i
+data/.git/objects/e4/5a24b23115717ab5ccdf6391bf88b579807cb4.i
+data/.git/objects/e6/2e16a62089002e9a2117493904ed5ec08c5c12.i
+data/.git/objects/e9/9ea4664c24ea7488fe8cd7d2f050a2d2d633c4.i
+data/.git/objects/f1/24aabf72b97d94fd5ef8a63ed0b71f93b7c494.i
+data/.git/objects/f8/f03a75e823a00749c0506d7fc27b96f3e4b6d7.i
+data/.git/objects/fc/6198fb66c23bcaa423042117864ebeddbab16f.i
+data/.git/objects/info/packs.i
+data/.git/objects/pack/pack-91f056e27fb7619490a496b3cc50d05755f3f0ef.idx.i
+data/.git/objects/pack/pack-91f056e27fb7619490a496b3cc50d05755f3f0ef.pack.i
+data/.git/objects/pack/pack-91f056e27fb7619490a496b3cc50d05755f3f0ef.pack.d
+data/.git/packed-refs.i
+data/.git/refs/heads/master.i
+data/.git/refs/remotes/wyk001/master.i
+data/.hgignore.i
+data/Example/FileInputStreamDemo.java.i
+data/Example/FileReaderDemo.java.i
+data/Example/applet.policy.i
+data/Example/build.xml.i
+data/Example/build/ACDemo2.html.i
+data/Example/build/AdapterDemo.html.i
+data/Example/build/AnonymousInnerClassDemo.html.i
+data/Example/build/AppletSkel.html.i
+data/Example/build/Bases.html.i
+data/Example/build/InnerClassDemo3.html.i
+data/Example/build/KeyEvents.html.i
+data/Example/build/MouseEvents.html.i
+data/Example/build/MousePressedDemo.html.i
+data/Example/build/ParamBanner.html.i
+data/Example/build/ParamDemo.html.i
+data/Example/build/Sample.html.i
+data/Example/build/SimpleApplet.html.i
+data/Example/build/SimpleBanner.html.i
+data/Example/build/SimpleKey.html.i
+data/Example/build/StatusWindow.html.i
+data/Example/build/built-jar.properties.i
+data/Example/build/classes/.netbeans_automatic_build.i
+data/Example/build/classes/A.class.i
+data/Example/build/classes/A10.class.i
+data/Example/build/classes/A2.class.i
+data/Example/build/classes/A3.class.i
+data/Example/build/classes/A4.class.i
+data/Example/build/classes/A5.class.i
+data/Example/build/classes/A6.class.i
+data/Example/build/classes/A7.class.i
+data/Example/build/classes/A8.class.i
+data/Example/build/classes/A9.class.i
+data/Example/build/classes/ACDemo.class.i
+data/Example/build/classes/ACDemo2.class.i
+data/Example/build/classes/AbstractAreas.class.i
+data/Example/build/classes/AbstractDemo.class.i
+data/Example/build/classes/Access.class.i
+data/Example/build/classes/AccessTest.class.i
+data/Example/build/classes/AdapterDemo.class.i
+data/Example/build/classes/Address.class.i
+data/Example/build/classes/AlgorithmsDemo.class.i
+data/Example/build/classes/Angles.class.i
+data/Example/build/classes/AnonymousInnerClassDemo$1.class.i
+data/Example/build/classes/AnonymousInnerClassDemo.class.i
+data/Example/build/classes/AnotherClient.class.i
+data/Example/build/classes/AppletSkel.class.i
+data/Example/build/classes/Area.class.i
+data/Example/build/classes/Array.class.i
+data/Example/build/classes/ArrayListDemo.class.i
+data/Example/build/classes/ArrayListToArray.class.i
+data/Example/build/classes/ArraysDemo.class.i
+data/Example/build/classes/AskMe.class.i
+data/Example/build/classes/AutoArray.class.i
+data/Example/build/classes/Average.class.i
+data/Example/build/classes/B.class.i
+data/Example/build/classes/B10.class.i
+data/Example/build/classes/B2.class.i
+data/Example/build/classes/B3.class.i
+data/Example/build/classes/B4.class.i
+data/Example/build/classes/B5.class.i
+data/Example/build/classes/B6.class.i
+data/Example/build/classes/B7.class.i
+data/Example/build/classes/B8.class.i
+data/Example/build/classes/B9.class.i
+data/Example/build/classes/BRRead.class.i
+data/Example/build/classes/BRReadLines.class.i
+data/Example/build/classes/Balance2.class.i
+data/Example/build/classes/Bases.class.i
+data/Example/build/classes/BasicMath.class.i
+data/Example/build/classes/BeingWatched.class.i
+data/Example/build/classes/BitLogic.class.i
+data/Example/build/classes/BitSetDemo.class.i
+data/Example/build/classes/BlockTest.class.i
+data/Example/build/classes/BoolLogic.class.i
+data/Example/build/classes/BoolTest.class.i
+data/Example/build/classes/Box.class.i
+data/Example/build/classes/Box1.class.i
+data/Example/build/classes/Box10.class.i
+data/Example/build/classes/Box11.class.i
+data/Example/build/classes/Box12.class.i
+data/Example/build/classes/Box13.class.i
+data/Example/build/classes/Box2.class.i
+data/Example/build/classes/Box4.class.i
+data/Example/build/classes/Box5.class.i
+data/Example/build/classes/Box6.class.i
+data/Example/build/classes/Box7.class.i
+data/Example/build/classes/Box8.class.i
+data/Example/build/classes/Box9.class.i
+data/Example/build/classes/BoxDemo.class.i
+data/Example/build/classes/BoxDemo2.class.i
+data/Example/build/classes/BoxDemo3.class.i
+data/Example/build/classes/BoxDemo4.class.i
+data/Example/build/classes/BoxDemo5.class.i
+data/Example/build/classes/BoxDemo6.class.i
+data/Example/build/classes/BoxDemo7.class.i
+data/Example/build/classes/BoxWeight.class.i
+data/Example/build/classes/BoxWeight1.class.i
+data/Example/build/classes/BoxWeight2.class.i
+data/Example/build/classes/BoxWeight3.class.i
+data/Example/build/classes/Break.class.i
+data/Example/build/classes/BreakLoop.class.i
+data/Example/build/classes/BreakLoop2.class.i
+data/Example/build/classes/BreakLoop3.class.i
+data/Example/build/classes/BreakLoop4.class.i
+data/Example/build/classes/BufferedInputStreamDemo.class.i
+data/Example/build/classes/BufferedReaderDemo.class.i
+data/Example/build/classes/ByteArrayInputStreamDemo.class.i
+data/Example/build/classes/ByteArrayInputStreamReset.class.i
+data/Example/build/classes/ByteArrayOutputStreamDemo.class.i
+data/Example/build/classes/ByteShift.class.i
+data/Example/build/classes/ByteUShift.class.i
+data/Example/build/classes/C10.class.i
+data/Example/build/classes/C4.class.i
+data/Example/build/classes/C7.class.i
+data/Example/build/classes/CalendarDemo.class.i
+data/Example/build/classes/CallByRef.class.i
+data/Example/build/classes/CallByValue.class.i
+data/Example/build/classes/Callback.class.i
+data/Example/build/classes/Caller.class.i
+data/Example/build/classes/Caller1.class.i
+data/Example/build/classes/CallingCons.class.i
+data/Example/build/classes/Callme.class.i
+data/Example/build/classes/Callme1.class.i
+data/Example/build/classes/ChainExcDemo.class.i
+data/Example/build/classes/ChangeCase.class.i
+data/Example/build/classes/CharArrayReaderDemo.class.i
+data/Example/build/classes/CharArrayWriterDemo.class.i
+data/Example/build/classes/CharDemo.class.i
+data/Example/build/classes/CharDemo2.class.i
+data/Example/build/classes/Client.class.i
+data/Example/build/classes/CloneDemo.class.i
+data/Example/build/classes/CloneDemo2.class.i
+data/Example/build/classes/Comma.class.i
+data/Example/build/classes/Commandline.class.i
+data/Example/build/classes/CompDemo.class.i
+data/Example/build/classes/ConCat.class.i
+data/Example/build/classes/Consumer.class.i
+data/Example/build/classes/Continue.class.i
+data/Example/build/classes/ContinueLabel.class.i
+data/Example/build/classes/Conversion.class.i
+data/Example/build/classes/CopyFile.class.i
+data/Example/build/classes/CurrentThreadDemo.class.i
+data/Example/build/classes/D10.class.i
+data/Example/build/classes/DateDemo.class.i
+data/Example/build/classes/DemoBoxWeight.class.i
+data/Example/build/classes/DemoJoin.class.i
+data/Example/build/classes/DemoShipment.class.i
+data/Example/build/classes/DemoSuper.class.i
+data/Example/build/classes/Demop2.class.i
+data/Example/build/classes/Derived.class.i
+data/Example/build/classes/DirList.class.i
+data/Example/build/classes/DirListOnly.class.i
+data/Example/build/classes/Dispatch.class.i
+data/Example/build/classes/DoWhlie.class.i
+data/Example/build/classes/DoubleDemo.class.i
+data/Example/build/classes/DynInit.class.i
+data/Example/build/classes/DynStack.class.i
+data/Example/build/classes/Elapsed.class.i
+data/Example/build/classes/EqualsNotEqualTo.class.i
+data/Example/build/classes/Example.class.i
+data/Example/build/classes/Example2.class.i
+data/Example/build/classes/Exc0.class.i
+data/Example/build/classes/Exc1.class.i
+data/Example/build/classes/Exc2.class.i
+data/Example/build/classes/ExceptionDemo.class.i
+data/Example/build/classes/ExecDemo.class.i
+data/Example/build/classes/ExecDemoFini.class.i
+data/Example/build/classes/ExtendThread.class.i
+data/Example/build/classes/Factorial.class.i
+data/Example/build/classes/Figure.class.i
+data/Example/build/classes/Figure2.class.i
+data/Example/build/classes/FileDemo.class.i
+data/Example/build/classes/FileInputStreamDemo.class.i
+data/Example/build/classes/FileOutputStreamDemo.class.i
+data/Example/build/classes/FileReaderDemo.class.i
+data/Example/build/classes/FileWriterDemo.class.i
+data/Example/build/classes/FinallyDemo.class.i
+data/Example/build/classes/FindAreas.class.i
+data/Example/build/classes/FindPrime.class.i
+data/Example/build/classes/FixedStack.class.i
+data/Example/build/classes/ForTest.class.i
+data/Example/build/classes/ForTick.class.i
+data/Example/build/classes/ForTick2.class.i
+data/Example/build/classes/ForVar.class.i
+data/Example/build/classes/GregorianCalendarDemo.class.i
+data/Example/build/classes/HandleError.class.i
+data/Example/build/classes/HashMapDemo.class.i
+data/Example/build/classes/HashSetDemo.class.i
+data/Example/build/classes/HexByte.class.i
+data/Example/build/classes/HiLoPri.class.i
+data/Example/build/classes/IFExtend.class.i
+data/Example/build/classes/IFTest.class.i
+data/Example/build/classes/IFTest2.class.i
+data/Example/build/classes/IFTest3.class.i
+data/Example/build/classes/IfElse.class.i
+data/Example/build/classes/IfSample.class.i
+data/Example/build/classes/IncDec.class.i
+data/Example/build/classes/InetAddressTest.class.i
+data/Example/build/classes/InfNaN.class.i
+data/Example/build/classes/InnerClassDemo.class.i
+data/Example/build/classes/InnerClassDemo2.class.i
+data/Example/build/classes/InnerClassDemo3$MyMouseAdapter.class.i
+data/Example/build/classes/InnerClassDemo3.class.i
+data/Example/build/classes/InputStreamEnumerator.class.i
+data/Example/build/classes/InstanceOf.class.i
+data/Example/build/classes/IntStack.class.i
+data/Example/build/classes/IsDemo.class.i
+data/Example/build/classes/IteratorDemo.class.i
+data/Example/build/classes/KeyEvents.class.i
+data/Example/build/classes/Length.class.i
+data/Example/build/classes/LifeTime.class.i
+data/Example/build/classes/Light.class.i
+data/Example/build/classes/LinkedListDemo.class.i
+data/Example/build/classes/MailList.class.i
+data/Example/build/classes/MakeString.class.i
+data/Example/build/classes/Matrix.class.i
+data/Example/build/classes/MemoryDemo.class.i
+data/Example/build/classes/Menu.class.i
+data/Example/build/classes/MethNestTry.class.i
+data/Example/build/classes/MissingBreak.class.i
+data/Example/build/classes/Modulus.class.i
+data/Example/build/classes/MouseEvents.class.i
+data/Example/build/classes/MousePressedDemo.class.i
+data/Example/build/classes/MultByTwo.class.i
+data/Example/build/classes/MultiCatch.class.i
+data/Example/build/classes/MultiThreadDemo.class.i
+data/Example/build/classes/MyClass.class.i
+data/Example/build/classes/MyClass2.class.i
+data/Example/build/classes/MyComp.class.i
+data/Example/build/classes/MyException.class.i
+data/Example/build/classes/MyMouseAdapter.class.i
+data/Example/build/classes/MyMouseMotionAdapter.class.i
+data/Example/build/classes/MyPack/AccountBalance.class.i
+data/Example/build/classes/MyPack/Balance.class.i
+data/Example/build/classes/MyPack/Balance2.class.i
+data/Example/build/classes/MyTimerTask.class.i
+data/Example/build/classes/NativeDemo.class.i
+data/Example/build/classes/NativeDemo.h.i
+data/Example/build/classes/NestTry.class.i
+data/Example/build/classes/Nested.class.i
+data/Example/build/classes/NewClass.rs.i
+data/Example/build/classes/NewThread.class.i
+data/Example/build/classes/NewThread2.class.i
+data/Example/build/classes/NewThread3.class.i
+data/Example/build/classes/NewThread4.class.i
+data/Example/build/classes/Nobody.class.i
+data/Example/build/classes/ObserverDemo.class.i
+data/Example/build/classes/OnlyExt.class.i
+data/Example/build/classes/OpBitEquals.class.i
+data/Example/build/classes/OpEquals.class.i
+data/Example/build/classes/OtherPackage.class.i
+data/Example/build/classes/Outer$Inner.class.i
+data/Example/build/classes/Outer.class.i
+data/Example/build/classes/Outer2$1Inner.class.i
+data/Example/build/classes/Outer2.class.i
+data/Example/build/classes/Overload.class.i
+data/Example/build/classes/Overload2.class.i
+data/Example/build/classes/OverloadCons.class.i
+data/Example/build/classes/OverloadCons2.class.i
+data/Example/build/classes/OverloadDemo.class.i
+data/Example/build/classes/OverloadDemo2.class.i
+data/Example/build/classes/Override.class.i
+data/Example/build/classes/Override2.class.i
+data/Example/build/classes/PBDemo.class.i
+data/Example/build/classes/PCFixed.class.i
+data/Example/build/classes/ParamBanner.class.i
+data/Example/build/classes/ParamBanner.html.i
+data/Example/build/classes/ParamDemo.class.i
+data/Example/build/classes/ParamDemo.html.i
+data/Example/build/classes/ParseDemo.class.i
+data/Example/build/classes/PassOb.class.i
+data/Example/build/classes/PkgTest.class.i
+data/Example/build/classes/PrintWriterDemo.class.i
+data/Example/build/classes/Producer.class.i
+data/Example/build/classes/Promote.class.i
+data/Example/build/classes/Protection.class.i
+data/Example/build/classes/Protection2.class.i
+data/Example/build/classes/PushbackInputStreamDemo.class.i
+data/Example/build/classes/PushbackReaderDemo.class.i
+data/Example/build/classes/Q.class.i
+data/Example/build/classes/Question.class.i
+data/Example/build/classes/RTTI.class.i
+data/Example/build/classes/RandDemo.class.i
+data/Example/build/classes/RecTest.class.i
+data/Example/build/classes/Rectangle.class.i
+data/Example/build/classes/Rectangle2.class.i
+data/Example/build/classes/Recursion.class.i
+data/Example/build/classes/Recursion2.class.i
+data/Example/build/classes/RefDemo.class.i
+data/Example/build/classes/RetOb.class.i
+data/Example/build/classes/Return.class.i
+data/Example/build/classes/ReverseDemo.class.i
+data/Example/build/classes/RunApp.html.i
+data/Example/build/classes/STDemo.class.i
+data/Example/build/classes/Sample.class.i
+data/Example/build/classes/Scope.class.i
+data/Example/build/classes/SequenceInputStreamDemo.class.i
+data/Example/build/classes/SerializationDemo.class.i
+data/Example/build/classes/SharedConstants.class.i
+data/Example/build/classes/Shipment.class.i
+data/Example/build/classes/ShowFile.class.i
+data/Example/build/classes/ShowUserDir.class.i
+data/Example/build/classes/SimpleApplet.class.i
+data/Example/build/classes/SimpleBanner.class.i
+data/Example/build/classes/SimpleInheritance.class.i
+data/Example/build/classes/SimpleKey.class.i
+data/Example/build/classes/SimpleSwitch.class.i
+data/Example/build/classes/SortString.class.i
+data/Example/build/classes/Stack.class.i
+data/Example/build/classes/Stack2.class.i
+data/Example/build/classes/Stack3.class.i
+data/Example/build/classes/StaticByName.class.i
+data/Example/build/classes/StaticDemo.class.i
+data/Example/build/classes/StatusWindow.class.i
+data/Example/build/classes/StringBufferDemo.class.i
+data/Example/build/classes/StringConversions.class.i
+data/Example/build/classes/StringDemo.class.i
+data/Example/build/classes/StringDemo2.class.i
+data/Example/build/classes/StringDemo3.class.i
+data/Example/build/classes/StringReplace.class.i
+data/Example/build/classes/SubStringCons.class.i
+data/Example/build/classes/SuspendResume.class.i
+data/Example/build/classes/Switch.class.i
+data/Example/build/classes/Synch.class.i
+data/Example/build/classes/Synch1.class.i
+data/Example/build/classes/TComp.class.i
+data/Example/build/classes/TTest.class.i
+data/Example/build/classes/Ternary.class.i
+data/Example/build/classes/Test.class.i
+data/Example/build/classes/Test2.class.i
+data/Example/build/classes/Test3.class.i
+data/Example/build/classes/Test4.class.i
+data/Example/build/classes/Test5.class.i
+data/Example/build/classes/TestBalance2.class.i
+data/Example/build/classes/TestClone.class.i
+data/Example/build/classes/TestIface.class.i
+data/Example/build/classes/TestIface2.class.i
+data/Example/build/classes/TestStack.class.i
+data/Example/build/classes/TestStack2.class.i
+data/Example/build/classes/TestStack3.class.i
+data/Example/build/classes/ThreadDemo.class.i
+data/Example/build/classes/ThreadGroupDemo.class.i
+data/Example/build/classes/ThreeDMatrix.class.i
+data/Example/build/classes/ThrowDemo.class.i
+data/Example/build/classes/ThrowsDemo.class.i
+data/Example/build/classes/TinyEdit.class.i
+data/Example/build/classes/TreeMapDemo.class.i
+data/Example/build/classes/TreeMapDemo2.class.i
+data/Example/build/classes/TreeSetDemo.class.i
+data/Example/build/classes/Triangle.class.i
+data/Example/build/classes/Triangle2.class.i
+data/Example/build/classes/TwoDAgain.class.i
+data/Example/build/classes/TwoDArray.class.i
+data/Example/build/classes/TwoObservers.class.i
+data/Example/build/classes/UCDemo.class.i
+data/Example/build/classes/URLDemo.class.i
+data/Example/build/classes/UseStatic.class.i
+data/Example/build/classes/UseSuper.class.i
+data/Example/build/classes/UseTrim.class.i
+data/Example/build/classes/VectorDemo.class.i
+data/Example/build/classes/Watcher.class.i
+data/Example/build/classes/Watcher1.class.i
+data/Example/build/classes/Watcher2.class.i
+data/Example/build/classes/While.class.i
+data/Example/build/classes/Whois.class.i
+data/Example/build/classes/WordCount.class.i
+data/Example/build/classes/WordCount2.class.i
+data/Example/build/classes/WriteDemo.class.i
+data/Example/build/classes/WriteServer.class.i
+data/Example/build/classes/X.class.i
+data/Example/build/classes/Y.class.i
+data/Example/build/classes/ab.i
+data/Example/build/classes/ab2.i
+data/Example/build/classes/abc.i
+data/Example/build/classes/appendDemo.class.i
+data/Example/build/classes/clicker.class.i
+data/Example/build/classes/deleteDemo.class.i
+data/Example/build/classes/equalsDemo.class.i
+data/Example/build/classes/getCharsDemo.class.i
+data/Example/build/classes/indexOfDemo.class.i
+data/Example/build/classes/insertDemo.class.i
+data/Example/build/classes/p1/Demo.class.i
+data/Example/build/classes/p1/Derived.class.i
+data/Example/build/classes/p1/Protection.class.i
+data/Example/build/classes/p1/SamePackage.class.i
+data/Example/build/classes/p2/Demop2.class.i
+data/Example/build/classes/p2/OtherPackage.class.i
+data/Example/build/classes/p2/Protection2.class.i
+data/Example/build/classes/replaceDemo.class.i
+data/Example/build/classes/setCharAtDemo.class.i
+data/Example/build/classes/toStringDemo.class.i
+data/Example/file1.txt.i
+data/Example/file2.txt.i
+data/Example/file3.txt.i
+data/Example/manifest.mf.i
+data/Example/nbproject/build-impl.xml.i
+data/Example/nbproject/genfiles.properties.i
+data/Example/nbproject/private/private.properties.i
+data/Example/nbproject/private/private.xml.i
+data/Example/nbproject/project.properties.i
+data/Example/nbproject/project.xml.i
+data/Example/serial.i
+data/Example/src/ACDemo.java.i
+data/Example/src/ACDemo2.java.i
+data/Example/src/AbstractAreas.java.i
+data/Example/src/AbstractDemo.java.i
+data/Example/src/Access.java.i
+data/Example/src/AccessTest.java.i
+data/Example/src/AccountBalance.java.i
+data/Example/src/AdapterDemo.java.i
+data/Example/src/AlgorithmsDemo.java.i
+data/Example/src/Angles.java.i
+data/Example/src/AnonymousInnerClassDemo.java.i
+data/Example/src/AppletSkel.java.i
+data/Example/src/Area.java.i
+data/Example/src/Array.java.i
+data/Example/src/ArrayListDemo.java.i
+data/Example/src/ArrayListToArray.java.i
+data/Example/src/ArraysDemo.java.i
+data/Example/src/AskMe.java.i
+data/Example/src/AutoArray.java.i
+data/Example/src/Average.java.i
+data/Example/src/BRRead.java.i
+data/Example/src/BRReadLines.java.i
+data/Example/src/Balance2.java.i
+data/Example/src/Bases.java.i
+data/Example/src/BasicMath.java.i
+data/Example/src/BitLogic.java.i
+data/Example/src/BitSetDemo.java.i
+data/Example/src/BlockTest.java.i
+data/Example/src/BoolLogic.java.i
+data/Example/src/BoolTest.java.i
+data/Example/src/BoxDemo.java.i
+data/Example/src/BoxDemo2.java.i
+data/Example/src/BoxDemo3.java.i
+data/Example/src/BoxDemo4.java.i
+data/Example/src/BoxDemo5.java.i
+data/Example/src/BoxDemo6.java.i
+data/Example/src/BoxDemo7.java.i
+data/Example/src/Break.java.i
+data/Example/src/BreakLoop.java.i
+data/Example/src/BreakLoop2.java.i
+data/Example/src/BreakLoop3.java.i
+data/Example/src/BreakLoop4.java.i
+data/Example/src/BufferedInputStreamDemo.java.i
+data/Example/src/BufferedReaderDemo.java.i
+data/Example/src/ByteArrayInputStreamDemo.java.i
+data/Example/src/ByteArrayInputStreamReset.java.i
+data/Example/src/ByteArrayOutputStreamDemo.java.i
+data/Example/src/ByteShift.java.i
+data/Example/src/ByteUShift.java.i
+data/Example/src/CalendarDemo.java.i
+data/Example/src/CallByRef.java.i
+data/Example/src/CallByValue.java.i
+data/Example/src/CallingCons.java.i
+data/Example/src/ChainExcDemo.java.i
+data/Example/src/ChangeCase.java.i
+data/Example/src/CharArrayReaderDemo.java.i
+data/Example/src/CharArrayWriterDemo.java.i
+data/Example/src/CharDemo.java.i
+data/Example/src/CharDemo2.java.i
+data/Example/src/CloneDemo.java.i
+data/Example/src/CloneDemo2.java.i
+data/Example/src/Comma.java.i
+data/Example/src/Commandline.java.i
+data/Example/src/CompDemo.java.i
+data/Example/src/ConCat.java.i
+data/Example/src/Continue.java.i
+data/Example/src/ContinueLabel.java.i
+data/Example/src/Conversion.java.i
+data/Example/src/CopyFile.java.i
+data/Example/src/CurrentThreadDemo.java.i
+data/Example/src/DateDemo.java.i
+data/Example/src/Demo.java.i
+data/Example/src/DemoBoxWeight.java.i
+data/Example/src/DemoJoin.java.i
+data/Example/src/DemoShipment.java.i
+data/Example/src/DemoSuper.java.i
+data/Example/src/Demop2.java.i
+data/Example/src/Derived.java.i
+data/Example/src/DirList.java.i
+data/Example/src/DirListOnly.java.i
+data/Example/src/Dispatch.java.i
+data/Example/src/DoWhlie.java.i
+data/Example/src/DoubleDemo.java.i
+data/Example/src/DynInit.java.i
+data/Example/src/Elapsed.java.i
+data/Example/src/EqualsNotEqualTo.java.i
+data/Example/src/Example2.java.i
+data/Example/src/Exc0.java.i
+data/Example/src/Exc1.java.i
+data/Example/src/Exc2.java.i
+data/Example/src/ExceptionDemo.java.i
+data/Example/src/ExecDemo.java.i
+data/Example/src/ExecDemoFini.java.i
+data/Example/src/ExtendThread.java.i
+data/Example/src/FileDemo.java.i
+data/Example/src/FileInputStreamDemo.java.i
+data/Example/src/FileOutputStreamDemo.java.i
+data/Example/src/FileReaderDemo.java.i
+data/Example/src/FileWriterDemo.java.i
+data/Example/src/FinallyDemo.java.i
+data/Example/src/FindAreas.java.i
+data/Example/src/FindPrime.java.i
+data/Example/src/ForTest.java.i
+data/Example/src/ForTick.java.i
+data/Example/src/ForTick2.java.i
+data/Example/src/ForVar.java.i
+data/Example/src/GregorianCalendarDemo.java.i
+data/Example/src/HandleError.java.i
+data/Example/src/HashMapDemo.java.i
+data/Example/src/HashSetDemo.java.i
+data/Example/src/HexByte.java.i
+data/Example/src/HiLoPri.java.i
+data/Example/src/IFExtend.java.i
+data/Example/src/IFTest.java.i
+data/Example/src/IFTest2.java.i
+data/Example/src/IFTest3.java.i
+data/Example/src/IfElse.java.i
+data/Example/src/IfSample.java.i
+data/Example/src/IncDec.java.i
+data/Example/src/InetAddressTest.java.i
+data/Example/src/InfNaN.java.i
+data/Example/src/InnerClassDemo.java.i
+data/Example/src/InnerClassDemo2.java.i
+data/Example/src/InnerClassDemo3.java.i
+data/Example/src/InstanceOf.java.i
+data/Example/src/IsDemo.java.i
+data/Example/src/IteratorDemo.java.i
+data/Example/src/KeyEvents.java.i
+data/Example/src/Length.java.i
+data/Example/src/LifeTime.java.i
+data/Example/src/Light.java.i
+data/Example/src/LinkedListDemo.java.i
+data/Example/src/MailList.java.i
+data/Example/src/MakeString.java.i
+data/Example/src/Matrix.java.i
+data/Example/src/MemoryDemo.java.i
+data/Example/src/Menu.java.i
+data/Example/src/MethNestTry.java.i
+data/Example/src/MissingBreak.java.i
+data/Example/src/Modulus.java.i
+data/Example/src/MouseEvents.java.i
+data/Example/src/MousePressedDemo.java.i
+data/Example/src/MultByTwo.java.i
+data/Example/src/MultiCatch.java.i
+data/Example/src/MultiThreadDemo.java.i
+data/Example/src/NativeDemo.c.i
+data/Example/src/NativeDemo.java.i
+data/Example/src/NestTry.java.i
+data/Example/src/Nested.java.i
+data/Example/src/NewClass.java.i
+data/Example/src/Nobody.java.i
+data/Example/src/ObserverDemo.java.i
+data/Example/src/OnlyExt.java.i
+data/Example/src/OpBitEquals.java.i
+data/Example/src/OpEquals.java.i
+data/Example/src/OtherPackage.java.i
+data/Example/src/Overload2.java.i
+data/Example/src/OverloadCons.java.i
+data/Example/src/OverloadCons2.java.i
+data/Example/src/OverloadDemo.java.i
+data/Example/src/Override.java.i
+data/Example/src/Override2.java.i
+data/Example/src/PBDemo.java.i
+data/Example/src/PCFixed.java.i
+data/Example/src/ParamBanner.java.i
+data/Example/src/ParamDemo.java.i
+data/Example/src/ParseDemo.java.i
+data/Example/src/PassOb.java.i
+data/Example/src/PkgTest.java.i
+data/Example/src/PrintWriterDemo.java.i
+data/Example/src/Promote.java.i
+data/Example/src/Protection.java.i
+data/Example/src/Protection2.java.i
+data/Example/src/PushbackInputStreamDemo.java.i
+data/Example/src/PushbackReaderDemo.java.i
+data/Example/src/RTTI.java.i
+data/Example/src/RandDemo.java.i
+data/Example/src/Recursion.java.i
+data/Example/src/Recursion2.java.i
+data/Example/src/RefDemo.java.i
+data/Example/src/RetOb.java.i
+data/Example/src/Return.java.i
+data/Example/src/ReverseDemo.java.i
+data/Example/src/STDemo.java.i
+data/Example/src/SamePackage.java.i
+data/Example/src/Sample.java.i
+data/Example/src/Scope.java.i
+data/Example/src/SequenceInputStreamDemo.java.i
+data/Example/src/SerializationDemo.java.i
+data/Example/src/ShowFile.java.i
+data/Example/src/ShowUserDir.java.i
+data/Example/src/SimpleApplet.java.i
+data/Example/src/SimpleBanner.java.i
+data/Example/src/SimpleInheritance.java.i
+data/Example/src/SimpleKey.java.i
+data/Example/src/SimpleSwitch.java.i
+data/Example/src/SortString.java.i
+data/Example/src/Stack.java.i
+data/Example/src/Stack2.java.i
+data/Example/src/StaticByName.java.i
+data/Example/src/StatusWindow.java.i
+data/Example/src/StringBufferDemo.java.i
+data/Example/src/StringConversions.java.i
+data/Example/src/StringDemo.java.i
+data/Example/src/StringDemo2.java.i
+data/Example/src/StringDemo3.java.i
+data/Example/src/StringReplace.java.i
+data/Example/src/SubStringCons.java.i
+data/Example/src/SuspendResume.java.i
+data/Example/src/Switch.java.i
+data/Example/src/Synch.java.i
+data/Example/src/Synch1.java.i
+data/Example/src/TTest.java.i
+data/Example/src/Ternary.java.i
+data/Example/src/TestBalance2.java.i
+data/Example/src/TestIface.java.i
+data/Example/src/TestIface2.java.i
+data/Example/src/TestStack.java.i
+data/Example/src/TestStack2.java.i
+data/Example/src/TestStack3.java.i
+data/Example/src/ThreadDemo.java.i
+data/Example/src/ThreadGroupDemo.java.i
+data/Example/src/ThreeDMatrix.java.i
+data/Example/src/ThrowDemo.java.i
+data/Example/src/ThrowsDemo.java.i
+data/Example/src/TinyEdit.java.i
+data/Example/src/TreeMapDemo.java.i
+data/Example/src/TreeMapDemo2.java.i
+data/Example/src/TreeSetDemo.java.i
+data/Example/src/TwoDAgain.java.i
+data/Example/src/TwoDArray.java.i
+data/Example/src/TwoObservers.java.i
+data/Example/src/UCDemo.java.i
+data/Example/src/URLDemo.java.i
+data/Example/src/UseStatic.java.i
+data/Example/src/UseSuper.java.i
+data/Example/src/UseTrim.java.i
+data/Example/src/VectorDemo.java.i
+data/Example/src/While.java.i
+data/Example/src/Whois.java.i
+data/Example/src/WordCount.java.i
+data/Example/src/WordCount2.java.i
+data/Example/src/WriteDemo.java.i
+data/Example/src/WriteServer.java.i
+data/Example/src/appendDemo.java.i
+data/Example/src/deleteDemo.java.i
+data/Example/src/equalsDemo.java.i
+data/Example/src/getCharsDemo.java.i
+data/Example/src/indexOfDemo.java.i
+data/Example/src/insertDemo.java.i
+data/Example/src/replaceDemo.java.i
+data/Example/src/setCharAtDemo.java.i
+data/Example/src/toStringDemo.java.i
+data/Example/test.txt.i
+data/Example2/3.gif.i
+data/Example2/JLabelDemo.class.i
+data/Example2/JLabelDemo.html.i
+data/Example2/SimpleImageLoad.class.i
+data/Example2/SimpleImageLoad.html.i
+data/Example2/applet.policy.i
+data/Example2/build.xml.i
+data/Example2/build/3.gif.i
+data/Example2/build/Animation.html.i
+data/Example2/build/BorderLayoutDemo.html.i
+data/Example2/build/ButtonDemo.html.i
+data/Example2/build/ButtonDemo2.html.i
+data/Example2/build/ButtonList.html.i
+data/Example2/build/CBGroup.html.i
+data/Example2/build/CardLayoutDemo.html.i
+data/Example2/build/CenterText.html.i
+data/Example2/build/CheckboxDemo.html.i
+data/Example2/build/CheckboxDemo2.html.i
+data/Example2/build/CheckboxGroupDemo2.html.i
+data/Example2/build/ChoiceDemo.html.i
+data/Example2/build/ChoiceDemo2.html.i
+data/Example2/build/DialogDemo.html.i
+data/Example2/build/DoubleBuffer.html.i
+data/Example2/build/FlowLayoutDemo.html.i
+data/Example2/build/GridLayoutDemo.html.i
+data/Example2/build/HistoGrab.html.i
+data/Example2/build/ImageFilterDemo.html.i
+data/Example2/build/InsetsDemo.html.i
+data/Example2/build/JButtonDemo.html.i
+data/Example2/build/JCheckBoxDemo.html.i
+data/Example2/build/JComboBoxDemo.html.i
+data/Example2/build/JLabelDemo.html.i
+data/Example2/build/JRadioButtonDemo.html.i
+data/Example2/build/JTabbedPaneDemo.html.i
+data/Example2/build/JTextFieldDemo.html.i
+data/Example2/build/LabelDemo.html.i
+data/Example2/build/ListDemo.html.i
+data/Example2/build/ListDemo2.html.i
+data/Example2/build/MemoryImageGenerator.html.i
+data/Example2/build/MenuDemo.html.i
+data/Example2/build/MultiLine.html.i
+data/Example2/build/SBDemo.html.i
+data/Example2/build/ScrollbarDemo2.html.i
+data/Example2/build/SimpleImageLoad.html.i
+data/Example2/build/TextAreaDemo.html.i
+data/Example2/build/TextFieldDemo.html.i
+data/Example2/build/TextLayout.html.i
+data/Example2/build/TileImage.html.i
+data/Example2/build/TrackedImageLoad.html.i
+data/Example2/build/built-jar.properties.i
+data/Example2/build/classes/.netbeans_automatic_build.i
+data/Example2/build/classes/3.gif.i
+data/Example2/build/classes/A.class.i
+data/Example2/build/classes/Animation.class.i
+data/Example2/build/classes/Blur.class.i
+data/Example2/build/classes/BorderLayoutDemo.class.i
+data/Example2/build/classes/ButtonDemo.class.i
+data/Example2/build/classes/ButtonDemo2$MyButton.class.i
+data/Example2/build/classes/ButtonDemo2.class.i
+data/Example2/build/classes/ButtonList.class.i
+data/Example2/build/classes/CBGroup.class.i
+data/Example2/build/classes/CardLayoutDemo.class.i
+data/Example2/build/classes/CenterText.class.i
+data/Example2/build/classes/CheckboxDemo.class.i
+data/Example2/build/classes/CheckboxDemo2$MyCheckbox.class.i
+data/Example2/build/classes/CheckboxDemo2.class.i
+data/Example2/build/classes/CheckboxGroupDemo2$MyCheckbox.class.i
+data/Example2/build/classes/CheckboxGroupDemo2.class.i
+data/Example2/build/classes/ChoiceDemo.class.i
+data/Example2/build/classes/ChoiceDemo2$MyChoice.class.i
+data/Example2/build/classes/ChoiceDemo2.class.i
+data/Example2/build/classes/CitiesPanel.class.i
+data/Example2/build/classes/ColorsPanel.class.i
+data/Example2/build/classes/Contrast.class.i
+data/Example2/build/classes/Convolver.class.i
+data/Example2/build/classes/DateFormatDemo.class.i
+data/Example2/build/classes/DialogDemo.class.i
+data/Example2/build/classes/DoubleBuffer$1.class.i
+data/Example2/build/classes/DoubleBuffer.class.i
+data/Example2/build/classes/FileDialogDemo.class.i
+data/Example2/build/classes/FlavorsPanel.class.i
+data/Example2/build/classes/FlowLayoutDemo.class.i
+data/Example2/build/classes/Grayscale.class.i
+data/Example2/build/classes/GridLayoutDemo.class.i
+data/Example2/build/classes/HistoGrab.class.i
+data/Example2/build/classes/ImageFilterDemo.class.i
+data/Example2/build/classes/InsetsDemo.class.i
+data/Example2/build/classes/Invert.class.i
+data/Example2/build/classes/JButtonDemo$1.class.i
+data/Example2/build/classes/JButtonDemo.class.i
+data/Example2/build/classes/JCheckBoxDemo$1.class.i
+data/Example2/build/classes/JCheckBoxDemo.class.i
+data/Example2/build/classes/JComboBoxDemo$1.class.i
+data/Example2/build/classes/JComboBoxDemo.class.i
+data/Example2/build/classes/JLabelDemo.class.i
+data/Example2/build/classes/JRadioButtonDemo$1.class.i
+data/Example2/build/classes/JRadioButtonDemo.class.i
+data/Example2/build/classes/JTabbedPaneDemo$1.class.i
+data/Example2/build/classes/JTabbedPaneDemo.class.i
+data/Example2/build/classes/JTextFieldDemo$1.class.i
+data/Example2/build/classes/JTextFieldDemo.class.i
+data/Example2/build/classes/LabelDemo.class.i
+data/Example2/build/classes/ListDemo.class.i
+data/Example2/build/classes/ListDemo2$MyList.class.i
+data/Example2/build/classes/ListDemo2.class.i
+data/Example2/build/classes/LoadedImage.class.i
+data/Example2/build/classes/MemoryImageGenerator.class.i
+data/Example2/build/classes/MenuDemo.class.i
+data/Example2/build/classes/MenuFrame.class.i
+data/Example2/build/classes/MultiLine.class.i
+data/Example2/build/classes/MyMenuHandler.class.i
+data/Example2/build/classes/MyMouseAdapter.class.i
+data/Example2/build/classes/MyWindowAdapter.class.i
+data/Example2/build/classes/PlugInFilter.class.i
+data/Example2/build/classes/ReflectionDemo1.class.i
+data/Example2/build/classes/ReflectionDemo2.class.i
+data/Example2/build/classes/SBDemo.class.i
+data/Example2/build/classes/SampleDialog.class.i
+data/Example2/build/classes/SampleFrame.class.i
+data/Example2/build/classes/ScrollbarDemo2$MyScrollbar.class.i
+data/Example2/build/classes/ScrollbarDemo2.class.i
+data/Example2/build/classes/Sharpen.class.i
+data/Example2/build/classes/SimpleDateFormatDemo.class.i
+data/Example2/build/classes/SimpleImageLoad.class.i
+data/Example2/build/classes/TextAreaDemo.class.i
+data/Example2/build/classes/TextFieldDemo.class.i
+data/Example2/build/classes/TextLayout.class.i
+data/Example2/build/classes/TileImage.class.i
+data/Example2/build/classes/TimeFormatDemo.class.i
+data/Example2/build/classes/TrackedImageLoad.class.i
+data/Example2/france.gif.i
+data/Example2/nbproject/build-impl.xml.i
+data/Example2/nbproject/genfiles.properties.i
+data/Example2/nbproject/private/private.properties.i
+data/Example2/nbproject/private/private.xml.i
+data/Example2/nbproject/project.properties.i
+data/Example2/nbproject/project.xml.i
+data/Example2/src/Animation.java.i
+data/Example2/src/Blur.java.i
+data/Example2/src/BorderLayoutDemo.java.i
+data/Example2/src/ButtonDemo.java.i
+data/Example2/src/ButtonDemo2.java.i
+data/Example2/src/ButtonList.java.i
+data/Example2/src/CBGroup.java.i
+data/Example2/src/CardLayoutDemo.java.i
+data/Example2/src/CenterText.java.i
+data/Example2/src/CheckboxDemo.java.i
+data/Example2/src/CheckboxDemo2.java.i
+data/Example2/src/CheckboxGroupDemo2.java.i
+data/Example2/src/ChoiceDemo.java.i
+data/Example2/src/ChoiceDemo2.java.i
+data/Example2/src/Contrast.java.i
+data/Example2/src/Convolver.java.i
+data/Example2/src/DateFormatDemo.java.i
+data/Example2/src/DialogDemo.java.i
+data/Example2/src/DoubleBuffer.java.i
+data/Example2/src/FlowLayoutDemo.java.i
+data/Example2/src/Grayscale.java.i
+data/Example2/src/GridLayoutDemo.java.i
+data/Example2/src/HistoGrab.java.i
+data/Example2/src/ImageFilterDemo.java.i
+data/Example2/src/InsetsDemo.java.i
+data/Example2/src/Invert.java.i
+data/Example2/src/JButtonDemo.java.i
+data/Example2/src/JCheckBoxDemo.java.i
+data/Example2/src/JComboBoxDemo.java.i
+data/Example2/src/JLabelDemo.java.i
+data/Example2/src/JRadioButtonDemo.java.i
+data/Example2/src/JTabbedPaneDemo.java.i
+data/Example2/src/JTextFieldDemo.java.i
+data/Example2/src/LabelDemo.java.i
+data/Example2/src/ListDemo.java.i
+data/Example2/src/ListDemo2.java.i
+data/Example2/src/LoadedImage.java.i
+data/Example2/src/MemoryImageGenerator.java.i
+data/Example2/src/MenuDemo.java.i
+data/Example2/src/MultiLine.java.i
+data/Example2/src/PlugInFilter.java.i
+data/Example2/src/ReflectionDemo1.java.i
+data/Example2/src/ReflectionDemo2.java.i
+data/Example2/src/SBDemo.java.i
+data/Example2/src/ScrollbarDemo2.java.i
+data/Example2/src/Sharpen.java.i
+data/Example2/src/SimpleDateFormatDemo.java.i
+data/Example2/src/SimpleImageLoad.java.i
+data/Example2/src/TextAreaDemo.java.i
+data/Example2/src/TextFieldDemo.java.i
+data/Example2/src/TextLayout.java.i
+data/Example2/src/TileImage.java.i
+data/Example2/src/TimeFormatDemo.java.i
+data/Example2/src/TrackedImageLoad.java.i
+data/Example2/src/subclass.java.i
+data/Example201008050010.zip.i
+data/Example_fin/FileInputStreamDemo.java.i
+data/Example_fin/FileReaderDemo.java.i
+data/Example_fin/applet.policy.i
+data/Example_fin/file1.txt.i
+data/Example_fin/file2.txt.i
+data/Example_fin/file3.txt.i
+data/Example_fin/manifest.mf.i
+data/Example_fin/nbproject/private/private.xml.i
+data/Example_fin/serial.i
+data/Example_fin/src/ACDemo.java.i
+data/Example_fin/src/ACDemo2.java.i
+data/Example_fin/src/AbstractAreas.java.i
+data/Example_fin/src/AbstractDemo.java.i
+data/Example_fin/src/Access.java.i
+data/Example_fin/src/AccessTest.java.i
+data/Example_fin/src/AccountBalance.java.i
+data/Example_fin/src/AdapterDemo.java.i
+data/Example_fin/src/AlgorithmsDemo.java.i
+data/Example_fin/src/Angles.java.i
+data/Example_fin/src/AnonymousInnerClassDemo.java.i
+data/Example_fin/src/AppWindow.java.i
+data/Example_fin/src/AppletFrame.java.i
+data/Example_fin/src/AppletSkel.java.i
+data/Example_fin/src/Arcs.java.i
+data/Example_fin/src/Area.java.i
+data/Example_fin/src/Array.java.i
+data/Example_fin/src/ArrayListDemo.java.i
+data/Example_fin/src/ArrayListToArray.java.i
+data/Example_fin/src/ArraysDemo.java.i
+data/Example_fin/src/AskMe.java.i
+data/Example_fin/src/AutoArray.java.i
+data/Example_fin/src/Average.java.i
+data/Example_fin/src/BRRead.java.i
+data/Example_fin/src/BRReadLines.java.i
+data/Example_fin/src/Balance2.java.i
+data/Example_fin/src/Bases.java.i
+data/Example_fin/src/BasicMath.java.i
+data/Example_fin/src/BitLogic.java.i
+data/Example_fin/src/BitSetDemo.java.i
+data/Example_fin/src/BlockTest.java.i
+data/Example_fin/src/BoolLogic.java.i
+data/Example_fin/src/BoolTest.java.i
+data/Example_fin/src/BoxDemo.java.i
+data/Example_fin/src/BoxDemo2.java.i
+data/Example_fin/src/BoxDemo3.java.i
+data/Example_fin/src/BoxDemo4.java.i
+data/Example_fin/src/BoxDemo5.java.i
+data/Example_fin/src/BoxDemo6.java.i
+data/Example_fin/src/BoxDemo7.java.i
+data/Example_fin/src/Break.java.i
+data/Example_fin/src/BreakLoop.java.i
+data/Example_fin/src/BreakLoop2.java.i
+data/Example_fin/src/BreakLoop3.java.i
+data/Example_fin/src/BreakLoop4.java.i
+data/Example_fin/src/BufferedInputStreamDemo.java.i
+data/Example_fin/src/BufferedReaderDemo.java.i
+data/Example_fin/src/ByteArrayInputStreamDemo.java.i
+data/Example_fin/src/ByteArrayInputStreamReset.java.i
+data/Example_fin/src/ByteArrayOutputStreamDemo.java.i
+data/Example_fin/src/ByteShift.java.i
+data/Example_fin/src/ByteUShift.java.i
+data/Example_fin/src/CalendarDemo.java.i
+data/Example_fin/src/CallByRef.java.i
+data/Example_fin/src/CallByValue.java.i
+data/Example_fin/src/CallingCons.java.i
+data/Example_fin/src/ChainExcDemo.java.i
+data/Example_fin/src/ChangeCase.java.i
+data/Example_fin/src/CharArrayReaderDemo.java.i
+data/Example_fin/src/CharArrayWriterDemo.java.i
+data/Example_fin/src/CharDemo.java.i
+data/Example_fin/src/CharDemo2.java.i
+data/Example_fin/src/CloneDemo.java.i
+data/Example_fin/src/CloneDemo2.java.i
+data/Example_fin/src/ColorDemo.java.i
+data/Example_fin/src/Comma.java.i
+data/Example_fin/src/Commandline.java.i
+data/Example_fin/src/CompDemo.java.i
+data/Example_fin/src/ConCat.java.i
+data/Example_fin/src/Continue.java.i
+data/Example_fin/src/ContinueLabel.java.i
+data/Example_fin/src/Conversion.java.i
+data/Example_fin/src/CopyFile.java.i
+data/Example_fin/src/CurrentThreadDemo.java.i
+data/Example_fin/src/DateDemo.java.i
+data/Example_fin/src/Demo.java.i
+data/Example_fin/src/DemoBoxWeight.java.i
+data/Example_fin/src/DemoJoin.java.i
+data/Example_fin/src/DemoShipment.java.i
+data/Example_fin/src/DemoSuper.java.i
+data/Example_fin/src/Demop2.java.i
+data/Example_fin/src/Derived.java.i
+data/Example_fin/src/DirList.java.i
+data/Example_fin/src/DirListOnly.java.i
+data/Example_fin/src/Dispatch.java.i
+data/Example_fin/src/DoWhlie.java.i
+data/Example_fin/src/DoubleDemo.java.i
+data/Example_fin/src/DynInit.java.i
+data/Example_fin/src/Elapsed.java.i
+data/Example_fin/src/Ellipses.java.i
+data/Example_fin/src/EqualsNotEqualTo.java.i
+data/Example_fin/src/Example2.java.i
+data/Example_fin/src/Exc0.java.i
+data/Example_fin/src/Exc1.java.i
+data/Example_fin/src/Exc2.java.i
+data/Example_fin/src/ExceptionDemo.java.i
+data/Example_fin/src/ExecDemo.java.i
+data/Example_fin/src/ExecDemoFini.java.i
+data/Example_fin/src/ExtendThread.java.i
+data/Example_fin/src/FileDemo.java.i
+data/Example_fin/src/FileInputStreamDemo.java.i
+data/Example_fin/src/FileOutputStreamDemo.java.i
+data/Example_fin/src/FileReaderDemo.java.i
+data/Example_fin/src/FileWriterDemo.java.i
+data/Example_fin/src/FinallyDemo.java.i
+data/Example_fin/src/FindAreas.java.i
+data/Example_fin/src/FindPrime.java.i
+data/Example_fin/src/FontInfo.java.i
+data/Example_fin/src/ForTest.java.i
+data/Example_fin/src/ForTick.java.i
+data/Example_fin/src/ForTick2.java.i
+data/Example_fin/src/ForVar.java.i
+data/Example_fin/src/GregorianCalendarDemo.java.i
+data/Example_fin/src/HandleError.java.i
+data/Example_fin/src/HashMapDemo.java.i
+data/Example_fin/src/HashSetDemo.java.i
+data/Example_fin/src/HexByte.java.i
+data/Example_fin/src/HiLoPri.java.i
+data/Example_fin/src/HourGlass.java.i
+data/Example_fin/src/IFExtend.java.i
+data/Example_fin/src/IFTest.java.i
+data/Example_fin/src/IFTest2.java.i
+data/Example_fin/src/IFTest3.java.i
+data/Example_fin/src/IfElse.java.i
+data/Example_fin/src/IfSample.java.i
+data/Example_fin/src/IncDec.java.i
+data/Example_fin/src/InetAddressTest.java.i
+data/Example_fin/src/InfNaN.java.i
+data/Example_fin/src/InnerClassDemo.java.i
+data/Example_fin/src/InnerClassDemo2.java.i
+data/Example_fin/src/InnerClassDemo3.java.i
+data/Example_fin/src/InstanceOf.java.i
+data/Example_fin/src/IsDemo.java.i
+data/Example_fin/src/IteratorDemo.java.i
+data/Example_fin/src/KeyEvents.java.i
+data/Example_fin/src/Length.java.i
+data/Example_fin/src/LifeTime.java.i
+data/Example_fin/src/Light.java.i
+data/Example_fin/src/Lines.java.i
+data/Example_fin/src/LinkedListDemo.java.i
+data/Example_fin/src/MailList.java.i
+data/Example_fin/src/MakeString.java.i
+data/Example_fin/src/Matrix.java.i
+data/Example_fin/src/MemoryDemo.java.i
+data/Example_fin/src/Menu.java.i
+data/Example_fin/src/MethNestTry.java.i
+data/Example_fin/src/MissingBreak.java.i
+data/Example_fin/src/Modulus.java.i
+data/Example_fin/src/MouseEvents.java.i
+data/Example_fin/src/MousePressedDemo.java.i
+data/Example_fin/src/MultByTwo.java.i
+data/Example_fin/src/MultiCatch.java.i
+data/Example_fin/src/MultiThreadDemo.java.i
+data/Example_fin/src/NativeDemo.c.i
+data/Example_fin/src/NativeDemo.java.i
+data/Example_fin/src/NestTry.java.i
+data/Example_fin/src/Nested.java.i
+data/Example_fin/src/NewClass.java.i
+data/Example_fin/src/Nobody.java.i
+data/Example_fin/src/ObserverDemo.java.i
+data/Example_fin/src/OnlyExt.java.i
+data/Example_fin/src/OpBitEquals.java.i
+data/Example_fin/src/OpEquals.java.i
+data/Example_fin/src/OtherPackage.java.i
+data/Example_fin/src/Overload2.java.i
+data/Example_fin/src/OverloadCons.java.i
+data/Example_fin/src/OverloadCons2.java.i
+data/Example_fin/src/OverloadDemo.java.i
+data/Example_fin/src/Override.java.i
+data/Example_fin/src/Override2.java.i
+data/Example_fin/src/PBDemo.java.i
+data/Example_fin/src/PCFixed.java.i
+data/Example_fin/src/ParamBanner.java.i
+data/Example_fin/src/ParamDemo.java.i
+data/Example_fin/src/ParseDemo.java.i
+data/Example_fin/src/PassOb.java.i
+data/Example_fin/src/PkgTest.java.i
+data/Example_fin/src/PrintWriterDemo.java.i
+data/Example_fin/src/Promote.java.i
+data/Example_fin/src/Protection.java.i
+data/Example_fin/src/Protection2.java.i
+data/Example_fin/src/PushbackInputStreamDemo.java.i
+data/Example_fin/src/PushbackReaderDemo.java.i
+data/Example_fin/src/RTTI.java.i
+data/Example_fin/src/RandDemo.java.i
+data/Example_fin/src/Rectangles.java.i
+data/Example_fin/src/Recursion.java.i
+data/Example_fin/src/Recursion2.java.i
+data/Example_fin/src/RefDemo.java.i
+data/Example_fin/src/ResizeMe.java.i
+data/Example_fin/src/RetOb.java.i
+data/Example_fin/src/Return.java.i
+data/Example_fin/src/ReverseDemo.java.i
+data/Example_fin/src/STDemo.java.i
+data/Example_fin/src/SamePackage.java.i
+data/Example_fin/src/Sample.java.i
+data/Example_fin/src/SampleFonts.java.i
+data/Example_fin/src/Scope.java.i
+data/Example_fin/src/SequenceInputStreamDemo.java.i
+data/Example_fin/src/SerializationDemo.java.i
+data/Example_fin/src/ShowFile.java.i
+data/Example_fin/src/ShowFonts.java.i
+data/Example_fin/src/ShowUserDir.java.i
+data/Example_fin/src/SimpleApplet.java.i
+data/Example_fin/src/SimpleBanner.java.i
+data/Example_fin/src/SimpleInheritance.java.i
+data/Example_fin/src/SimpleKey.java.i
+data/Example_fin/src/SimpleSwitch.java.i
+data/Example_fin/src/SortString.java.i
+data/Example_fin/src/Stack.java.i
+data/Example_fin/src/Stack2.java.i
+data/Example_fin/src/StaticByName.java.i
+data/Example_fin/src/StatusWindow.java.i
+data/Example_fin/src/StringBufferDemo.java.i
+data/Example_fin/src/StringConversions.java.i
+data/Example_fin/src/StringDemo.java.i
+data/Example_fin/src/StringDemo2.java.i
+data/Example_fin/src/StringDemo3.java.i
+data/Example_fin/src/StringReplace.java.i
+data/Example_fin/src/SubStringCons.java.i
+data/Example_fin/src/SuspendResume.java.i
+data/Example_fin/src/Switch.java.i
+data/Example_fin/src/Synch.java.i
+data/Example_fin/src/Synch1.java.i
+data/Example_fin/src/TTest.java.i
+data/Example_fin/src/Ternary.java.i
+data/Example_fin/src/TestBalance2.java.i
+data/Example_fin/src/TestIface.java.i
+data/Example_fin/src/TestIface2.java.i
+data/Example_fin/src/TestStack.java.i
+data/Example_fin/src/TestStack2.java.i
+data/Example_fin/src/TestStack3.java.i
+data/Example_fin/src/ThreadDemo.java.i
+data/Example_fin/src/ThreadGroupDemo.java.i
+data/Example_fin/src/ThreeDMatrix.java.i
+data/Example_fin/src/ThrowDemo.java.i
+data/Example_fin/src/ThrowsDemo.java.i
+data/Example_fin/src/TinyEdit.java.i
+data/Example_fin/src/TreeMapDemo.java.i
+data/Example_fin/src/TreeMapDemo2.java.i
+data/Example_fin/src/TreeSetDemo.java.i
+data/Example_fin/src/TwoDAgain.java.i
+data/Example_fin/src/TwoDArray.java.i
+data/Example_fin/src/TwoObservers.java.i
+data/Example_fin/src/UCDemo.java.i
+data/Example_fin/src/URLDemo.java.i
+data/Example_fin/src/UseStatic.java.i
+data/Example_fin/src/UseSuper.java.i
+data/Example_fin/src/UseTrim.java.i
+data/Example_fin/src/VectorDemo.java.i
+data/Example_fin/src/While.java.i
+data/Example_fin/src/Whois.java.i
+data/Example_fin/src/WindowEvents.java.i
+data/Example_fin/src/WordCount.java.i
+data/Example_fin/src/WordCount2.java.i
+data/Example_fin/src/WriteDemo.java.i
+data/Example_fin/src/WriteServer.java.i
+data/Example_fin/src/XOR.java.i
+data/Example_fin/src/appendDemo.java.i
+data/Example_fin/src/deleteDemo.java.i
+data/Example_fin/src/equalsDemo.java.i
+data/Example_fin/src/getCharsDemo.java.i
+data/Example_fin/src/indexOfDemo.java.i
+data/Example_fin/src/insertDemo.java.i
+data/Example_fin/src/replaceDemo.java.i
+data/Example_fin/src/setCharAtDemo.java.i
+data/Example_fin/src/toStringDemo.java.i
+data/Example_fin/test.txt.i
+data/OfficalCode/ApndxA.code.i
+data/OfficalCode/Chap10.code.i
+data/OfficalCode/Chap11.code.i
+data/OfficalCode/Chap12.code.i
+data/OfficalCode/Chap13.code.i
+data/OfficalCode/Chap14.code.i
+data/OfficalCode/Chap15.code.i
+data/OfficalCode/Chap16.code.i
+data/OfficalCode/Chap17.code.i
+data/OfficalCode/Chap18.code.i
+data/OfficalCode/Chap19.code.i
+data/OfficalCode/Chap2.code.i
+data/OfficalCode/Chap20.code.i
+data/OfficalCode/Chap21.code.i
+data/OfficalCode/Chap22.code.i
+data/OfficalCode/Chap23.code.i
+data/OfficalCode/Chap24.code.i
+data/OfficalCode/Chap25.code.i
+data/OfficalCode/Chap26.code.i
+data/OfficalCode/Chap27.code.i
+data/OfficalCode/Chap29.code.i
+data/OfficalCode/Chap3.code.i
+data/OfficalCode/Chap30.code.i
+data/OfficalCode/Chap31.code.i
+data/OfficalCode/Chap32.code.i
+data/OfficalCode/Chap4.code.i
+data/OfficalCode/Chap5.code.i
+data/OfficalCode/Chap6.code.i
+data/OfficalCode/Chap7.code.i
+data/OfficalCode/Chap8.code.i
+data/OfficalCode/Chap9.code.i
+data/OfficalCode/chap28.code.i
+data/README.i
+data/Book Code/Chapter 1/D3D9 Init/D3D9 Init.sln.i
+data/Book Code/Chapter 1/D3D9 Init/D3D9 Init.vcproj.i
+data/Book Code/Chapter 1/D3D9 Init/d3dInit.cpp.i
+data/Book Code/Chapter 1/D3D9 Init/d3dUtility.cpp.i
+data/Book Code/Chapter 1/D3D9 Init/d3dUtility.h.i
+data/Book Code/Chapter 10/D3DXCreateMeshFVF/D3DXCreateMeshFVF.sln.i
+data/Book Code/Chapter 10/D3DXCreateMeshFVF/D3DXCreateMeshFVF.vcproj.i
+data/Book Code/Chapter 10/D3DXCreateMeshFVF/brick0.jpg.i
+data/Book Code/Chapter 10/D3DXCreateMeshFVF/brick1.jpg.i
+data/Book Code/Chapter 10/D3DXCreateMeshFVF/checker.jpg.i
+data/Book Code/Chapter 10/D3DXCreateMeshFVF/d3dUtility.cpp.i
+data/Book Code/Chapter 10/D3DXCreateMeshFVF/d3dUtility.h.i
+data/Book Code/Chapter 10/D3DXCreateMeshFVF/d3dxcreatemeshfvf.cpp.i
+data/Book Code/Chapter 10/D3DXCreateMeshFVF/texture credit.txt.i
+data/Book Code/Chapter 11/Bounding Volumes/Bounding Volumes.sln.i
+data/Book Code/Chapter 11/Bounding Volumes/Bounding Volumes.vcproj.i
+data/Book Code/Chapter 11/Bounding Volumes/bigship1.x.i
+data/Book Code/Chapter 11/Bounding Volumes/bigship1.x.d
+data/Book Code/Chapter 11/Bounding Volumes/boundingvolumes.cpp.i
+data/Book Code/Chapter 11/Bounding Volumes/d3dUtility.cpp.i
+data/Book Code/Chapter 11/Bounding Volumes/d3dUtility.h.i
+data/Book Code/Chapter 11/Progressive Mesh/Progressive Mesh.sln.i
+data/Book Code/Chapter 11/Progressive Mesh/Progressive Mesh.vcproj.i
+data/Book Code/Chapter 11/Progressive Mesh/bigship1.x.i
+data/Book Code/Chapter 11/Progressive Mesh/bigship1.x.d
+data/Book Code/Chapter 11/Progressive Mesh/d3dUtility.cpp.i
+data/Book Code/Chapter 11/Progressive Mesh/d3dUtility.h.i
+data/Book Code/Chapter 11/Progressive Mesh/pmesh.cpp.i
+data/Book Code/Chapter 11/XFile/XFile.sln.i
+data/Book Code/Chapter 11/XFile/XFile.vcproj.i
+data/Book Code/Chapter 11/XFile/bigship1.x.i
+data/Book Code/Chapter 11/XFile/bigship1.x.d
+data/Book Code/Chapter 11/XFile/d3dUtility.cpp.i
+data/Book Code/Chapter 11/XFile/d3dUtility.h.i
+data/Book Code/Chapter 11/XFile/xfile.cpp.i
+data/Book Code/Chapter 12/Camera/Camera.sln.i
+data/Book Code/Chapter 12/Camera/Camera.vcproj.i
+data/Book Code/Chapter 12/Camera/camera.cpp.i
+data/Book Code/Chapter 12/Camera/camera.h.i
+data/Book Code/Chapter 12/Camera/cameraApp.cpp.i
+data/Book Code/Chapter 12/Camera/d3dUtility.cpp.i
+data/Book Code/Chapter 12/Camera/d3dUtility.h.i
+data/Book Code/Chapter 12/Camera/desert.bmp.i
+data/Book Code/Chapter 12/Camera/desert.bmp.d
+data/Book Code/Chapter 13/Terrain/Terrain.sln.i
+data/Book Code/Chapter 13/Terrain/Terrain.vcproj.i
+data/Book Code/Chapter 13/Terrain/Thumbs.db.i
+data/Book Code/Chapter 13/Terrain/camera.cpp.i
+data/Book Code/Chapter 13/Terrain/camera.h.i
+data/Book Code/Chapter 13/Terrain/coastMountain64.raw.i
+data/Book Code/Chapter 13/Terrain/d3dUtility.cpp.i
+data/Book Code/Chapter 13/Terrain/d3dUtility.h.i
+data/Book Code/Chapter 13/Terrain/d3dfont.cpp.i
+data/Book Code/Chapter 13/Terrain/d3dfont.h.i
+data/Book Code/Chapter 13/Terrain/d3dutil.cpp.i
+data/Book Code/Chapter 13/Terrain/d3dutil.h.i
+data/Book Code/Chapter 13/Terrain/desert.bmp.i
+data/Book Code/Chapter 13/Terrain/desert.bmp.d
+data/Book Code/Chapter 13/Terrain/dxutil.cpp.i
+data/Book Code/Chapter 13/Terrain/dxutil.h.i
+data/Book Code/Chapter 13/Terrain/fps.cpp.i
+data/Book Code/Chapter 13/Terrain/fps.h.i
+data/Book Code/Chapter 13/Terrain/grass.bmp.i
+data/Book Code/Chapter 13/Terrain/grass.bmp.d
+data/Book Code/Chapter 13/Terrain/terrain.cpp.i
+data/Book Code/Chapter 13/Terrain/terrain.h.i
+data/Book Code/Chapter 13/Terrain/terrainDriver.cpp.i
+data/Book Code/Chapter 14/Firework System/Firework System.sln.i
+data/Book Code/Chapter 14/Firework System/Firework System.vcproj.i
+data/Book Code/Chapter 14/Firework System/camera.cpp.i
+data/Book Code/Chapter 14/Firework System/camera.h.i
+data/Book Code/Chapter 14/Firework System/d3dUtility.cpp.i
+data/Book Code/Chapter 14/Firework System/d3dUtility.h.i
+data/Book Code/Chapter 14/Firework System/desert.bmp.i
+data/Book Code/Chapter 14/Firework System/desert.bmp.d
+data/Book Code/Chapter 14/Firework System/firework.cpp.i
+data/Book Code/Chapter 14/Firework System/flare.bmp.i
+data/Book Code/Chapter 14/Firework System/pSystem.cpp.i
+data/Book Code/Chapter 14/Firework System/pSystem.h.i
+data/Book Code/Chapter 14/Laser System/Laser System.sln.i
+data/Book Code/Chapter 14/Laser System/Laser System.vcproj.i
+data/Book Code/Chapter 14/Laser System/block.bmp.i
+data/Book Code/Chapter 14/Laser System/camera.cpp.i
+data/Book Code/Chapter 14/Laser System/camera.h.i
+data/Book Code/Chapter 14/Laser System/d3dUtility.cpp.i
+data/Book Code/Chapter 14/Laser System/d3dUtility.h.i
+data/Book Code/Chapter 14/Laser System/desert.bmp.i
+data/Book Code/Chapter 14/Laser System/desert.bmp.d
+data/Book Code/Chapter 14/Laser System/flare.bmp.i
+data/Book Code/Chapter 14/Laser System/flare_alpha notes.txt.i
+data/Book Code/Chapter 14/Laser System/flare_alpha.dds.i
+data/Book Code/Chapter 14/Laser System/laser.cpp.i
+data/Book Code/Chapter 14/Laser System/pSystem.cpp.i
+data/Book Code/Chapter 14/Laser System/pSystem.h.i
+data/Book Code/Chapter 14/Snow System/Snow System.sln.i
+data/Book Code/Chapter 14/Snow System/Snow System.vcproj.i
+data/Book Code/Chapter 14/Snow System/block.bmp.i
+data/Book Code/Chapter 14/Snow System/camera.cpp.i
+data/Book Code/Chapter 14/Snow System/camera.h.i
+data/Book Code/Chapter 14/Snow System/d3dUtility.cpp.i
+data/Book Code/Chapter 14/Snow System/d3dUtility.h.i
+data/Book Code/Chapter 14/Snow System/desert.bmp.i
+data/Book Code/Chapter 14/Snow System/desert.bmp.d
+data/Book Code/Chapter 14/Snow System/pSystem.cpp.i
+data/Book Code/Chapter 14/Snow System/pSystem.h.i
+data/Book Code/Chapter 14/Snow System/snow.cpp.i
+data/Book Code/Chapter 14/Snow System/snowball.bmp.i
+data/Book Code/Chapter 14/Snow System/snowflake notes.txt.i
+data/Book Code/Chapter 14/Snow System/snowflake.dds.i
+data/Book Code/Chapter 15/Pick/Pick.sln.i
+data/Book Code/Chapter 15/Pick/Pick.vcproj.i
+data/Book Code/Chapter 15/Pick/d3dUtility.cpp.i
+data/Book Code/Chapter 15/Pick/d3dUtility.h.i
+data/Book Code/Chapter 15/Pick/pickSample.cpp.i
+data/Book Code/Chapter 16/Transform/Transform.sln.i
+data/Book Code/Chapter 16/Transform/Transform.vcproj.i
+data/Book Code/Chapter 16/Transform/d3dUtility.cpp.i
+data/Book Code/Chapter 16/Transform/d3dUtility.h.i
+data/Book Code/Chapter 16/Transform/transform.cpp.i
+data/Book Code/Chapter 16/Transform/transform.txt.i
+data/Book Code/Chapter 17/VS Diffuse Lighting/VS Diffuse Lighting.sln.i
+data/Book Code/Chapter 17/VS Diffuse Lighting/VS Diffuse Lighting.vcproj.i
+data/Book Code/Chapter 17/VS Diffuse Lighting/d3dUtility.cpp.i
+data/Book Code/Chapter 17/VS Diffuse Lighting/d3dUtility.h.i
+data/Book Code/Chapter 17/VS Diffuse Lighting/diffuse.txt.i
+data/Book Code/Chapter 17/VS Diffuse Lighting/vs_diffuse.cpp.i
+data/Book Code/Chapter 17/VS Toon 1 No Outlines/VS Toon 1 No Outlines.sln.i
+data/Book Code/Chapter 17/VS Toon 1 No Outlines/VS Toon 1 No Outlines.vcproj.i
+data/Book Code/Chapter 17/VS Toon 1 No Outlines/d3dUtility.cpp.i
+data/Book Code/Chapter 17/VS Toon 1 No Outlines/d3dUtility.h.i
+data/Book Code/Chapter 17/VS Toon 1 No Outlines/toon.cpp.i
+data/Book Code/Chapter 17/VS Toon 1 No Outlines/toon.txt.i
+data/Book Code/Chapter 17/VS Toon 1 No Outlines/toonshade.bmp.i
+data/Book Code/Chapter 17/VS Toon 2 With Outlines/VS Toon 2 With Outlines.sln.i
+data/Book Code/Chapter 17/VS Toon 2 With Outlines/VS Toon 2 With Outlines.vcproj.i
+data/Book Code/Chapter 17/VS Toon 2 With Outlines/d3dUtility.cpp.i
+data/Book Code/Chapter 17/VS Toon 2 With Outlines/d3dUtility.h.i
+data/Book Code/Chapter 17/VS Toon 2 With Outlines/outline.txt.i
+data/Book Code/Chapter 17/VS Toon 2 With Outlines/silhouetteEdges.cpp.i
+data/Book Code/Chapter 17/VS Toon 2 With Outlines/silhouetteEdges.h.i
+data/Book Code/Chapter 17/VS Toon 2 With Outlines/toon.cpp.i
+data/Book Code/Chapter 17/VS Toon 2 With Outlines/toon.txt.i
+data/Book Code/Chapter 17/VS Toon 2 With Outlines/toonshade.bmp.i
+data/Book Code/Chapter 18/PS MultiTexture/PS MultiTexture.sln.i
+data/Book Code/Chapter 18/PS MultiTexture/PS MultiTexture.vcproj.i
+data/Book Code/Chapter 18/PS MultiTexture/crate.bmp.i
+data/Book Code/Chapter 18/PS MultiTexture/crate.bmp.d
+data/Book Code/Chapter 18/PS MultiTexture/d3dUtility.cpp.i
+data/Book Code/Chapter 18/PS MultiTexture/d3dUtility.h.i
+data/Book Code/Chapter 18/PS MultiTexture/ps_multitex.cpp.i
+data/Book Code/Chapter 18/PS MultiTexture/ps_multitex.txt.i
+data/Book Code/Chapter 18/PS MultiTexture/spotlight.bmp.i
+data/Book Code/Chapter 18/PS MultiTexture/text.bmp.i
+data/Book Code/Chapter 19/CartoonEffect/CartoonEffect.sln.i
+data/Book Code/Chapter 19/CartoonEffect/CartoonEffect.vcproj.i
+data/Book Code/Chapter 19/CartoonEffect/d3dUtility.cpp.i
+data/Book Code/Chapter 19/CartoonEffect/d3dUtility.h.i
+data/Book Code/Chapter 19/CartoonEffect/tooneffect.cpp.i
+data/Book Code/Chapter 19/CartoonEffect/tooneffect.txt.i
+data/Book Code/Chapter 19/CartoonEffect/toonshade.bmp.i
+data/Book Code/Chapter 19/Fog Effect/Fog Effect.sln.i
+data/Book Code/Chapter 19/Fog Effect/Fog Effect.vcproj.i
+data/Book Code/Chapter 19/Fog Effect/camera.cpp.i
+data/Book Code/Chapter 19/Fog Effect/camera.h.i
+data/Book Code/Chapter 19/Fog Effect/coastMountain64.raw.i
+data/Book Code/Chapter 19/Fog Effect/d3dUtility.cpp.i
+data/Book Code/Chapter 19/Fog Effect/d3dUtility.h.i
+data/Book Code/Chapter 19/Fog Effect/fog.cpp.i
+data/Book Code/Chapter 19/Fog Effect/fog.txt.i
+data/Book Code/Chapter 19/Fog Effect/terrain.cpp.i
+data/Book Code/Chapter 19/Fog Effect/terrain.h.i
+data/Book Code/Chapter 19/Lighting and Texturing/Lighting and Texturing.sln.i
+data/Book Code/Chapter 19/Lighting and Texturing/Lighting and Texturing.vcproj.i
+data/Book Code/Chapter 19/Lighting and Texturing/Terrain_3x_diffcol.jpg.i
+data/Book Code/Chapter 19/Lighting and Texturing/Terrain_3x_diffcol.jpg.d
+data/Book Code/Chapter 19/Lighting and Texturing/d3dUtility.cpp.i
+data/Book Code/Chapter 19/Lighting and Texturing/d3dUtility.h.i
+data/Book Code/Chapter 19/Lighting and Texturing/light_tex.txt.i
+data/Book Code/Chapter 19/Lighting and Texturing/light_tex_effect.cpp.i
+data/Book Code/Chapter 19/Lighting and Texturing/mountain.x.i
+data/Book Code/Chapter 2/no samples for chap2.txt.i
+data/Book Code/Chapter 3/Cube/Cube.sln.i
+data/Book Code/Chapter 3/Cube/Cube.vcproj.i
+data/Book Code/Chapter 3/Cube/cube.cpp.i
+data/Book Code/Chapter 3/Cube/d3dUtility.cpp.i
+data/Book Code/Chapter 3/Cube/d3dUtility.h.i
+data/Book Code/Chapter 3/D3DXCreate/D3DXCreate.sln.i
+data/Book Code/Chapter 3/D3DXCreate/D3DXCreate.vcproj.i
+data/Book Code/Chapter 3/D3DXCreate/d3dUtility.cpp.i
+data/Book Code/Chapter 3/D3DXCreate/d3dUtility.h.i
+data/Book Code/Chapter 3/D3DXCreate/d3dxcreate.cpp.i
+data/Book Code/Chapter 3/Teapot/Teapot.sln.i
+data/Book Code/Chapter 3/Teapot/Teapot.vcproj.i
+data/Book Code/Chapter 3/Teapot/d3dUtility.cpp.i
+data/Book Code/Chapter 3/Teapot/d3dUtility.h.i
+data/Book Code/Chapter 3/Teapot/teapot.cpp.i
+data/Book Code/Chapter 3/Triangle/Triangle.sln.i
+data/Book Code/Chapter 3/Triangle/Triangle.vcproj.i
+data/Book Code/Chapter 3/Triangle/d3dUtility.cpp.i
+data/Book Code/Chapter 3/Triangle/d3dUtility.h.i
+data/Book Code/Chapter 3/Triangle/triangle.cpp.i
+data/Book Code/Chapter 4/Colore Triangle/Colore Triangle.sln.i
+data/Book Code/Chapter 4/Colore Triangle/Colore Triangle.vcproj.i
+data/Book Code/Chapter 4/Colore Triangle/colorTriangle.cpp.i
+data/Book Code/Chapter 4/Colore Triangle/d3dUtility.cpp.i
+data/Book Code/Chapter 4/Colore Triangle/d3dUtility.h.i
+data/Book Code/Chapter 5/directional light/d3dUtility.cpp.i
+data/Book Code/Chapter 5/directional light/d3dUtility.h.i
+data/Book Code/Chapter 5/directional light/directional light.sln.i
+data/Book Code/Chapter 5/directional light/directional light.vcproj.i
+data/Book Code/Chapter 5/directional light/directionalLight.cpp.i
+data/Book Code/Chapter 5/lit pyramid/d3dUtility.cpp.i
+data/Book Code/Chapter 5/lit pyramid/d3dUtility.h.i
+data/Book Code/Chapter 5/lit pyramid/lit pyramid.sln.i
+data/Book Code/Chapter 5/lit pyramid/lit pyramid.vcproj.i
+data/Book Code/Chapter 5/lit pyramid/litPyramid.cpp.i
+data/Book Code/Chapter 5/point light/d3dUtility.cpp.i
+data/Book Code/Chapter 5/point light/d3dUtility.h.i
+data/Book Code/Chapter 5/point light/point light.sln.i
+data/Book Code/Chapter 5/point light/point light.vcproj.i
+data/Book Code/Chapter 5/point light/pointLight.cpp.i
+data/Book Code/Chapter 5/spot light/d3dUtility.cpp.i
+data/Book Code/Chapter 5/spot light/d3dUtility.h.i
+data/Book Code/Chapter 5/spot light/spot light.sln.i
+data/Book Code/Chapter 5/spot light/spot light.vcproj.i
+data/Book Code/Chapter 5/spot light/spotLight.cpp.i
+data/Book Code/Chapter 6/AddressModes/AddressModes.sln.i
+data/Book Code/Chapter 6/AddressModes/AddressModes.vcproj.i
+data/Book Code/Chapter 6/AddressModes/addressModes.cpp.i
+data/Book Code/Chapter 6/AddressModes/d3dUtility.cpp.i
+data/Book Code/Chapter 6/AddressModes/d3dUtility.h.i
+data/Book Code/Chapter 6/AddressModes/dx5_logo.bmp.i
+data/Book Code/Chapter 6/TexCube/TexCube.sln.i
+data/Book Code/Chapter 6/TexCube/TexCube.vcproj.i
+data/Book Code/Chapter 6/TexCube/crate.jpg.i
+data/Book Code/Chapter 6/TexCube/cube.cpp.i
+data/Book Code/Chapter 6/TexCube/cube.h.i
+data/Book Code/Chapter 6/TexCube/d3dUtility.cpp.i
+data/Book Code/Chapter 6/TexCube/d3dUtility.h.i
+data/Book Code/Chapter 6/TexCube/texCube.cpp.i
+data/Book Code/Chapter 6/TexCube/vertex.h.i
+data/Book Code/Chapter 6/TexQuad/TexQuad.sln.i
+data/Book Code/Chapter 6/TexQuad/TexQuad.vcproj.i
+data/Book Code/Chapter 6/TexQuad/d3dUtility.cpp.i
+data/Book Code/Chapter 6/TexQuad/d3dUtility.h.i
+data/Book Code/Chapter 6/TexQuad/dx5_logo.bmp.i
+data/Book Code/Chapter 6/TexQuad/texQuad.cpp.i
+data/Book Code/Chapter 7/MtrlAlpha/MtrlAlpha.sln.i
+data/Book Code/Chapter 7/MtrlAlpha/MtrlAlpha.vcproj.i
+data/Book Code/Chapter 7/MtrlAlpha/crate.jpg.i
+data/Book Code/Chapter 7/MtrlAlpha/d3dUtility.cpp.i
+data/Book Code/Chapter 7/MtrlAlpha/d3dUtility.h.i
+data/Book Code/Chapter 7/MtrlAlpha/mtrlAlpha.cpp.i
+data/Book Code/Chapter 7/texAlpha/alphachannel.bmp.i
+data/Book Code/Chapter 7/texAlpha/crate.jpg.i
+data/Book Code/Chapter 7/texAlpha/cratewalpha.dds.i
+data/Book Code/Chapter 7/texAlpha/cratewalpha.dds.d
+data/Book Code/Chapter 7/texAlpha/cube.cpp.i
+data/Book Code/Chapter 7/texAlpha/cube.h.i
+data/Book Code/Chapter 7/texAlpha/d3dUtility.cpp.i
+data/Book Code/Chapter 7/texAlpha/d3dUtility.h.i
+data/Book Code/Chapter 7/texAlpha/lobbyxpos.JPG.i
+data/Book Code/Chapter 7/texAlpha/texAlpha.cpp.i
+data/Book Code/Chapter 7/texAlpha/texAlpha.sln.i
+data/Book Code/Chapter 7/texAlpha/texAlpha.vcproj.i
+data/Book Code/Chapter 7/texAlpha/vertex.h.i
+data/Book Code/Chapter 8/Stencil Mirror Shadow/Stencil Mirror Shadow.sln.i
+data/Book Code/Chapter 8/Stencil Mirror Shadow/Stencil Mirror Shadow.vcproj.i
+data/Book Code/Chapter 8/Stencil Mirror Shadow/brick0.jpg.i
+data/Book Code/Chapter 8/Stencil Mirror Shadow/checker.jpg.i
+data/Book Code/Chapter 8/Stencil Mirror Shadow/d3dUtility.cpp.i
+data/Book Code/Chapter 8/Stencil Mirror Shadow/d3dUtility.h.i
+data/Book Code/Chapter 8/Stencil Mirror Shadow/ice.bmp.i
+data/Book Code/Chapter 8/Stencil Mirror Shadow/ice.bmp.d
+data/Book Code/Chapter 8/Stencil Mirror Shadow/stencilmirrorshadow.cpp.i
+data/Book Code/Chapter 8/Stencil Mirror/Stencil Mirror.sln.i
+data/Book Code/Chapter 8/Stencil Mirror/Stencil Mirror.vcproj.i
+data/Book Code/Chapter 8/Stencil Mirror/brick0.jpg.i
+data/Book Code/Chapter 8/Stencil Mirror/checker.jpg.i
+data/Book Code/Chapter 8/Stencil Mirror/d3dUtility.cpp.i
+data/Book Code/Chapter 8/Stencil Mirror/d3dUtility.h.i
+data/Book Code/Chapter 8/Stencil Mirror/ice.bmp.i
+data/Book Code/Chapter 8/Stencil Mirror/ice.bmp.d
+data/Book Code/Chapter 8/Stencil Mirror/stencilmirror.cpp.i
+data/Book Code/Chapter 8/Stencil Shadow/Stencil Shadow.sln.i
+data/Book Code/Chapter 8/Stencil Shadow/Stencil Shadow.vcproj.i
+data/Book Code/Chapter 8/Stencil Shadow/brick0.jpg.i
+data/Book Code/Chapter 8/Stencil Shadow/checker.jpg.i
+data/Book Code/Chapter 8/Stencil Shadow/d3dUtility.cpp.i
+data/Book Code/Chapter 8/Stencil Shadow/d3dUtility.h.i
+data/Book Code/Chapter 8/Stencil Shadow/ice.bmp.i
+data/Book Code/Chapter 8/Stencil Shadow/ice.bmp.d
+data/Book Code/Chapter 8/Stencil Shadow/stencilshadow.cpp.i
+data/Book Code/Chapter 9/CFont/CFont.sln.i
+data/Book Code/Chapter 9/CFont/CFont.vcproj.i
+data/Book Code/Chapter 9/CFont/cfont.cpp.i
+data/Book Code/Chapter 9/CFont/d3dUtility.cpp.i
+data/Book Code/Chapter 9/CFont/d3dUtility.h.i
+data/Book Code/Chapter 9/CFont/d3dfont.cpp.i
+data/Book Code/Chapter 9/CFont/d3dfont.h.i
+data/Book Code/Chapter 9/CFont/d3dutil.cpp.i
+data/Book Code/Chapter 9/CFont/d3dutil.h.i
+data/Book Code/Chapter 9/CFont/dxutil.cpp.i
+data/Book Code/Chapter 9/CFont/dxutil.h.i
+data/Book Code/Chapter 9/D3DXCreateText/D3DXCreateText.sln.i
+data/Book Code/Chapter 9/D3DXCreateText/D3DXCreateText.vcproj.i
+data/Book Code/Chapter 9/D3DXCreateText/d3dUtility.cpp.i
+data/Book Code/Chapter 9/D3DXCreateText/d3dUtility.h.i
+data/Book Code/Chapter 9/D3DXCreateText/d3dxcreatetext.cpp.i
+data/Book Code/Chapter 9/ID3DXFont/ID3DXFont.sln.i
+data/Book Code/Chapter 9/ID3DXFont/ID3DXFont.vcproj.i
+data/Book Code/Chapter 9/ID3DXFont/d3dUtility.cpp.i
+data/Book Code/Chapter 9/ID3DXFont/d3dUtility.h.i
+data/Book Code/Chapter 9/ID3DXFont/id3dxfont.cpp.i

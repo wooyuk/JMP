@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "point light", "point light.vcproj", "{A969FA84-13D9-406E-A4D4-45ABF04A7372}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A969FA84-13D9-406E-A4D4-45ABF04A7372}.Debug.ActiveCfg = Debug|Win32
+		{A969FA84-13D9-406E-A4D4-45ABF04A7372}.Debug.Build.0 = Debug|Win32
+		{A969FA84-13D9-406E-A4D4-45ABF04A7372}.Release.ActiveCfg = Release|Win32
+		{A969FA84-13D9-406E-A4D4-45ABF04A7372}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

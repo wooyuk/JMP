@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CFont", "CFont.vcproj", "{1297C6B7-2B49-4450-A416-48A858587AAA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1297C6B7-2B49-4450-A416-48A858587AAA}.Debug.ActiveCfg = Debug|Win32
+		{1297C6B7-2B49-4450-A416-48A858587AAA}.Debug.Build.0 = Debug|Win32
+		{1297C6B7-2B49-4450-A416-48A858587AAA}.Release.ActiveCfg = Release|Win32
+		{1297C6B7-2B49-4450-A416-48A858587AAA}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
